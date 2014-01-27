@@ -128,8 +128,7 @@ body {
 
 /* start header */
 .header_bg {
-  background: url("../images/bg.jpg") no-repeat;
-  background-size: cover;}
+  background: url("../images/bg.jpg") no-repeat; }
 
 .logo {
   position: absolute;
@@ -273,9 +272,7 @@ h2.style {
   font-size: 3.5em;
   color: #ffffff;
   text-shadow: 0 1px 0 #22373c;
-  line-height: 1.2em; 
-  margin-top: -70px;
-}
+  line-height: 1.2em; }
 
 p.para {
   margin-top: 4%;
