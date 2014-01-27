@@ -11,6 +11,8 @@ $Red: #d74941;
 $Amber: #7e492c;
 $Yellow : $Amber; // #FE9E2E;
 
+@import 'font/optimus.css';
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol {
   margin: 0;
@@ -165,10 +167,6 @@ img {
 }
 
 /*end reset*/
-@font-face {
-  font-family: 'caviar_dreamsregular';
-  src: url(../fonts/CaviarDreams-webfont.ttf) format("truetype");
-}
 
 
 body {
@@ -218,7 +216,7 @@ body {
   //margin-left: -40px;
   margin-left: 0px;
   margin-top:60px;
-  font-family:caviar_dreamsregular;
+  font-family:optimusprincepsregular;
   font-size:1.4em;
   @media only screen and (max-width: 1024px) {
     margin-left: 0px;
@@ -361,7 +359,7 @@ body {
 }
 
 h2.style {
-  font-family: 'caviar_dreamsregular';
+  font-family: 'optimusprincepsregular';
   font-size: 3.5em;
   color: #ffffff;
   text-shadow: 0 1px 0 rgb(34, 55, 60);
@@ -370,7 +368,7 @@ h2.style {
 
 p.para {
   margin-top: 4%;
-  // font-family: 'caviar_dreamsregular';
+  // font-family: 'optimusprincepsregular';
   font-size: 1em;
   color: #fff;
   text-shadow: 0 1px 0 rgb(152, 153, 153);
@@ -624,7 +622,7 @@ p.para1 {
 }
 
 h2.style1 {
-  font-family: 'caviar_dreamsregular';
+  font-family: 'optimusprincepsregular';
   font-size: 2.5em;
   color: #84B3B9;
   text-shadow: 0 1px 0 rgb(255, 255, 255);

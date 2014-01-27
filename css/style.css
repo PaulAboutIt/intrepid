@@ -1,3 +1,4 @@
+@import url(font/optimus.css);
 /*
 Author: W3layout
 Author URL: http://w3layouts.com
@@ -113,10 +114,6 @@ img {
   max-width: 100%; }
 
 /*end reset*/
-@font-face {
-  font-family: 'caviar_dreamsregular';
-  src: url(../fonts/CaviarDreams-webfont.ttf) format("truetype"); }
-
 body {
   font-family: Georgia, serif;
   font-size: 100%;
@@ -154,7 +151,7 @@ body {
   float: left;
   margin-left: 0px;
   margin-top: 60px;
-  font-family: caviar_dreamsregular;
+  font-family: optimusprincepsregular;
   font-size: 1.4em; }
   @media only screen and (max-width: 1024px) {
     .menu {
@@ -264,7 +261,7 @@ body {
   margin: 8% 0 20%; }
 
 h2.style {
-  font-family: 'caviar_dreamsregular';
+  font-family: 'optimusprincepsregular';
   font-size: 3.5em;
   color: #ffffff;
   text-shadow: 0 1px 0 #22373c;
@@ -465,7 +462,7 @@ p.para1 {
     -o-box-shadow: 0px 40px 20px -40px #858585; }
 
 h2.style1 {
-  font-family: 'caviar_dreamsregular';
+  font-family: 'optimusprincepsregular';
   font-size: 2.5em;
   color: #84B3B9;
   text-shadow: 0 1px 0 white;
