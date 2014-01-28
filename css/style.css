@@ -156,8 +156,10 @@ body {
   background: #263923;
   width: 100%;
   margin-left: 0;
-  padding-left: 180px;
+  padding-left: 220px;
   z-index: 1;
+  top: 0;
+  left: 0;
   font-family: optimusprincepsregular;
   font-size: 1.4em; }
   .menu .nav li {
@@ -167,8 +169,9 @@ body {
       margin: 0; }
   @media only screen and (max-width: 1024px) {
     .menu {
-      margin-left: 160px;
-      margin-top: 60px; } }
+      margin-left: 0px;
+      margin-top: 60px;
+      padding-left: 220px; } }
   @media only screen and (max-width: 780px) {
     .menu {
       margin-left: 0;
@@ -268,6 +271,10 @@ h2.style {
   .banner h2 {
     margin-top: 5px;
     text-shadow: 2px 2px 2px #19282C; }
+    @media only screen and (min-width: 1281px) {
+      .banner h2 {
+        margin-top: 160px;
+        margin-left: 100px; } }
 
 p.para {
   margin-top: 4%;
