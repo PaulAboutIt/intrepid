@@ -14,3 +14,23 @@ var services = [
   {title: "User Experience / Workflow Redesign",
   text: "What we do: Evaluate and improve the use of health IT applications within a practice or healthcare organization; workflow redesign for an integrated user experience to maximize provider satisfaction and effectiveness."}
 ];
+
+var clients = [
+  {
+  name: "Axesson",
+  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched California Direct, the state’s first publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
+  link: "http://axesson.com/",
+  url: "axesson.com/"
+},
+{
+  name: "National Association of Trusted Exchange (NATE)",
+  content: "National Association for Trusted Exchange (NATE) brings the expertise of state programs together to find common solutions that optimize appropriate exchange of health information for greater gains in adoption and outcomes.  Emerging from a pilot project supported by the Office of the National Coordinator for Health Information Technology named the Western States Consortium, NATE was established as a not-for-profit incorporated in Washington, D.C. on May 1, 2013.",
+  link: "http://nate-trust.org",
+  url: "nate-trust.org"
+},
+{
+  name: "23Eleven, LLC",
+  content: "2311 works with multiple collaborative efforts to deliver on the promise of health Information exchange. Working closely with private, state, and federal clients who are committed to interoperable technology and policy across states and nationwide, 2311 delivers comprehensive health information exchange policy and technology expertise.",
+  link: "http://23eleven.net",
+  url: "23eleven.net"
+}];

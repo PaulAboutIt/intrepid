@@ -370,7 +370,23 @@ p.para1 {
 
 /* start footer */
 .footer_bg {
-  background: #263923; }
+  background: #263923;
+  padding: 15px 0; }
+  .footer_bg .wrap {
+    height: auto; }
+    .footer_bg .wrap .wrapper {
+      min-height: 50px;
+      height: auto; }
+      .footer_bg .wrap .wrapper .f_grid {
+        padding: 0;
+        margin: 0; }
+  .footer_bg .copyright {
+    color: white;
+    font-size: 12px; }
+    .footer_bg .copyright a:link, .footer_bg .copyright a:visited {
+      color: white; }
+    .footer_bg .copyright a:hover {
+      color: black; }
 
 .f_grid {
   display: block;

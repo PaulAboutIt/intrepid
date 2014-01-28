@@ -269,7 +269,7 @@ body {
       a {
         color:inherit;
       }
-    } 
+    }
   }
   > li {
     float: left;
@@ -484,6 +484,30 @@ p.para1 {
 
 .footer_bg {
   background: #263923;
+  padding:15px 0;
+  .wrap {
+    height:auto;
+    .wrapper {
+      min-height:50px;
+      height:auto;
+      .f_grid {
+        padding:0;
+        margin:0;
+      }
+    }
+  }
+  .copyright {
+    color:white;
+    font-size:12px;
+    a {
+      &:link, &:visited {
+        color:white;
+      }
+      &:hover {
+        color:black;
+      }
+    }
+  }
 }
 
 .f_grid {

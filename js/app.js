@@ -75,7 +75,7 @@ intrepidApp.controller('serviceController', function($scope) {
 intrepidApp.controller('clientsController', function($scope) {
   $scope.current = 'service';
   $scope.banner = false;
-  $scope.services = services;
+  $scope.clients = clients;
 });
 
 intrepidApp.controller('whoController', function($scope) {
