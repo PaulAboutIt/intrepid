@@ -1,6 +1,5 @@
 var services = [
   {title: "Health Information Exchange / Interoperability",
-    image: "",
     text: "What we do: Data exchange and interoperability needs assessments and strategic planning; community and enterprise HIE management services; vendor selection and technology implementation guidance; stakeholder outreach and engagement; policy development focused on alignment with federal and state initiatives (e.g. state-based HIE infrastructures, Healtheway)."},
   {title: "Population Health Data Management / Analytics",
     text: "What we do: Support provider, government, and non-profit institutions in realizing their goals for population health management. We draw upon our health IT industry subject matter expertise and deep architectural systems design skillsets."},

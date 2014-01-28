@@ -124,12 +124,13 @@ body {
   width: 80%; }
 
 .wrapper {
-  padding: 2% 6%; }
+  padding: 2% 6%;
+  min-height: 220px; }
 
 /* start header */
 .header_bg {
   background: url("../images/bg.jpg") no-repeat;
-  background-size: cover;}
+  background-size: cover; }
 
 .logo {
   position: absolute;
@@ -141,14 +142,14 @@ body {
     position: relative;
     z-index: 2;
     width: 100%; }
-  @media screen and (max-width: 768px) {
-    .logo {
-      width: 100%; }
-      .logo img {
-        display: block;
-        margin: auto;
-        max-width: 200px; } }
 
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100%; }
+    .logo img {
+      display: block;
+      margin: auto;
+      max-width: 200px; } }
 /* start menu */
 .menu {
   float: left;
@@ -163,8 +164,13 @@ body {
   font-size: 1.4em; }
   @media only screen and (max-width: 1024px) {
     .menu {
-      margin-left: 0px;
+      margin-left: 160px;
       margin-top: 60px; } }
+  @media only screen and (max-width: 780px) {
+    .menu {
+      margin-left: 0;
+      margin-top: 0;
+      position: static; } }
 
 .toggleMenu {
   display: none;
@@ -233,8 +239,8 @@ body {
       display: block; }
       .nav > li > a:hover {
         color: #f1f1f1; }
-  .nav > li.hover > ul {
-    left: 40px; }
+    .nav > li.hover > ul {
+      left: 40px; }
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -273,9 +279,8 @@ h2.style {
   font-size: 3.5em;
   color: #ffffff;
   text-shadow: 0 1px 0 #22373c;
-  line-height: 1.2em; 
-  margin-top: -70px;
-}
+  line-height: 1.2em;
+  margin-top: -70px; }
 
 p.para {
   margin-top: 4%;
@@ -453,6 +458,12 @@ p.para1 {
 
 .commercial {
   margin: 6% 0; }
+  .commercial .service {
+    border-bottom: 1px solid rgba(38, 57, 35, 0.73);
+    padding: 10px 0 10px; }
+    .commercial .service h2 {
+      font-size: 1.5em;
+      color: #263923; }
 
 /*  GRID OF THREE */
 .grid_1_of_3 {
@@ -477,7 +488,8 @@ h2.style1 {
   color: #84B3B9;
   text-shadow: 0 1px 0 white;
   line-height: 1.2em;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  color: #263923; }
 
 .images_1_of_3 p {
   margin-top: 4%; }
@@ -818,7 +830,8 @@ x:-o-prefocus, .lb-overlay img {
     width: 95%; }
 
   .wrapper {
-    padding: 2% 2%; }
+    padding: 2% 2%;
+    min-height: 220px; }
 
   .banner {
     width: 50%; }
@@ -1006,3 +1019,10 @@ x:-o-prefocus, .lb-overlay img {
 
   h2.style {
     font-size: 2em; } }
+.whoweare .profile {
+  border-bottom: 1px solid rgba(38, 57, 35, 0.73);
+  padding: 10px 0; }
+  .whoweare .profile h2 {
+    font-size: 1.5em; }
+  .whoweare .profile strong {
+    color: black; }

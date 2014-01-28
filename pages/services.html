@@ -4,13 +4,9 @@
 <div class="wrapper">
   <div class="main">
     <h2 class="style1">Service Areas</h2>
-    <p class="para1"></p>
-      <div class="commercial">
-        <div class="grid_1_of_3 " data-ng-repeat='service in services'>
+    <div class="commercial">
+        <div class="grid_1_of_3 service" data-ng-repeat='service in services'>
           <h2 class="style1">{{service.title}}</h2>
-            <div class="gallery">
-             <a href="details.html"><img src="/images/pic8.jpg" title="image-name"></a>
-            </div>
             <p class="para1">{{service.text}}</p>
         </div>
         <div class="clear"></div>

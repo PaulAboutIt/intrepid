@@ -32,11 +32,21 @@ intrepidApp.config(function($routeProvider, $locationProvider) {
 
 
 // create the controller and inject Angular's $scope
-intrepidApp.controller('mainController', function($scope, $location) {
-  if( $location.path() === '/'){
-    $scope.current = 'home';
-    $scope.banner = 'true';
-  }
+intrepidApp.controller('mainController', function($scope, $rootScope, $location) {
+  $scope.showBanner = function(){
+    $scope.current = $location.path();
+    $scope.banner = false;
+    if( $location.path() === '/'){
+      $scope.current = 'home';
+      $scope.banner = 'true';
+    }
+    return;
+  };
+
+  $scope.$on("$routeChangeSuccess", function (event, next, current) {
+    $scope.showBanner();
+  });
+
 });
 
 intrepidApp.controller('homeController', function($scope) {
