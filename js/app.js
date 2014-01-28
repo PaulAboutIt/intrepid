@@ -27,6 +27,12 @@ intrepidApp.config(function($routeProvider, $locationProvider) {
     templateUrl : 'pages/whoweare.html',
     controller  : 'whoController'
   })
+
+  .when('/clients', {
+    templateUrl : 'pages/clients.html',
+    controller  : 'clientsController'
+  })
+
   .otherwise({redirectTo: '/'});
 });
 
@@ -60,6 +66,13 @@ intrepidApp.controller('homeController', function($scope) {
 
 
 intrepidApp.controller('serviceController', function($scope) {
+  $scope.current = 'service';
+  $scope.banner = false;
+  $scope.services = services;
+});
+
+
+intrepidApp.controller('clientsController', function($scope) {
   $scope.current = 'service';
   $scope.banner = false;
   $scope.services = services;
