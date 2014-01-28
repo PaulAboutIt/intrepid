@@ -118,6 +118,8 @@ body {
   font-family: Georgia, serif;
   font-size: 100%;
   background: #ffffff; }
+  body a:link {
+    color: #277907; }
   body a:visited {
     color: #777; }
 
