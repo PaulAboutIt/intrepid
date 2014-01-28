@@ -166,6 +166,9 @@ body {
   font-family: Georgia, serif;
   font-size: 100%;
   background: #ffffff;
+  a:visited {
+    color:#777;
+  }
 }
 
 .wrap {
@@ -218,10 +221,20 @@ body {
   position: absolute;
   background: #263923;
   width: 100%;
-  margin-left: 160px;
+  margin-left: 0;
+  padding-left:180px;
   z-index: 1;
   font-family: optimusprincepsregular;
   font-size: 1.4em;
+  .nav {
+    li {
+      padding:5px;
+      a {
+        padding:10px 20px;
+        margin: 0;
+      }
+    }
+  }
   @media only screen and (max-width: 1024px) {
     margin-left: 160px;
     margin-top: 60px;
