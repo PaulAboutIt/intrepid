@@ -739,7 +739,7 @@ h2.style1 {
 .listimg {
   display: block;
   img {
-  
+
   }
 
 }
@@ -1354,4 +1354,14 @@ x:-o-prefocus, .lb-overlay img {
 }
 .copyright {
   text-align:center;
+}
+
+
+
+body.home {
+  .header_bg  {
+    .wrapper {
+      min-height:420px;
+    }
+  }
 }
