@@ -430,11 +430,11 @@ p.para1 {
   float: left;
   width: 74.3333%; }
 
-.address p {
+.address p, .address address {
   color: #ffffff;
   font-size: 0.8725em;
   line-height: 1.8em; }
-  .address p a {
+  .address p a, .address address a {
     color: #ffffff;
     margin-top: 10px; }
 .address h3 {
