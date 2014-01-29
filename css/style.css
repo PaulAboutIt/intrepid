@@ -282,10 +282,6 @@ h2.style {
   .banner h2 {
     margin-top: 5px;
     text-shadow: 2px 2px 2px #19282C; }
-    @media only screen and (min-width: 1281px) {
-      .banner h2 {
-        margin-top: 160px;
-        margin-left: 100px; } }
 
 p.para {
   margin-top: 4%;
