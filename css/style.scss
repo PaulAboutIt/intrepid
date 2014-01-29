@@ -188,7 +188,7 @@ body {
   top: 10px;
   left: 10px;
   float: left;
-  width: 200px;
+  width: 150px;
   img {
     position: relative;
     z-index: 2;
@@ -350,7 +350,6 @@ body {
 /* start banner_text */
 h2.style {
   font-family: 'optimusprincepsregular';
-  font-size: 3.5em;
   color: #ffffff;
   text-shadow: 0 1px 0 #22373c;
   line-height: 1.2em;
@@ -358,8 +357,21 @@ h2.style {
 }
 
 .banner {
-  width: 42%;
+  width: 70%;
   margin: 8% 0 20%;
+  font-size:2.3em;
+  @media only screen and (min-width: 781px) {
+    position:absolute;
+    top:35px;
+    left:200px;
+  }
+  &::after {
+    display:block;
+    clear:both;
+    content: ' ';
+    width:100%;
+    height:1px;
+  }
   h2 {
     margin-top:5px;
     text-shadow: 2px 2px 2px #19282C;
@@ -619,17 +631,24 @@ p.para1 {
 }
 
 .commercial {
-  margin: 6% 0;
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(38, 57, 35, 0.73);
+  padding:10px 0 10px;
   .service {
-    h2 {
-      font-size:1.5em;
-      color: #263923;
-    }
-    border-bottom: 1px solid rgba(38, 57, 35, 0.73);
-    padding:10px 0 10px;
+    padding:5px 0;
   }
 }
-
+.main {
+  .service ,  &.whoweare {
+    h2.style1 {
+      font-size:1.33em;
+      color: #263923;
+    }
+  }
+  p.para1 {
+    font-size:14px;
+  }
+}
 /*  GRID OF THREE */
 
 .grid_1_of_3 {
@@ -660,7 +679,12 @@ h2.style1 {
   letter-spacing: -1px;
   color:#263923;
 }
-
+.main {
+  h2.style1 {
+    font-size:1.8em;
+    margin:5px 0;
+  }
+}
 .images_1_of_3 p {
   margin-top: 4%;
 }
@@ -714,6 +738,10 @@ h2.style1 {
 
 .listimg {
   display: block;
+  img {
+  
+  }
+
 }
 
 .listview_1_of_2 {
@@ -722,7 +750,7 @@ h2.style1 {
 
 .listimg_2_of_1 {
   float: left;
-  width: 38.33333%;
+  width: 20.33333%;
   margin-right: 4.33333%;
 }
 
@@ -736,7 +764,7 @@ h2.style1 {
 }
 
 .images_1_of_2 img {
-  max-width: 100%;
+  max-width: 140px;
   display: block;
 }
 
@@ -1055,7 +1083,7 @@ x:-o-prefocus, .lb-overlay img {
     width: 95%;
   }
   .banner {
-    width: 45%;
+    width: 90%;
   }
   .ca-nav span {
     width: 34px;
@@ -1078,11 +1106,10 @@ x:-o-prefocus, .lb-overlay img {
     width: 95%;
   }
   .wrapper {
-    padding: 2% 2%;
-    min-height:220px;
+    padding: 0 2% ;
+  //    min-height:220px;
   }
   .banner {
-    width: 50%;
   }
   .ca-nav span {
     width: 34px;
@@ -1255,7 +1282,6 @@ x:-o-prefocus, .lb-overlay img {
     width: 92%;
   }
   h2.style {
-    font-size: 2.5em;
   }
   .lb-album li {
     width: 45.333%;

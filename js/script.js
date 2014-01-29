@@ -1,10 +1,14 @@
 jQuery.noConflict();
 var ww;
 
-
+var algo;
 jQuery(document).ready(function($) {
   ww = document.body.clientWidth;
   $(".nav li a").each(function() {
+    $(this).on('click', function(e){
+      jQuery(e.target).parents('.menu').find('.toggleMenu').toggleClass("active");
+      jQuery(".nav").toggle('slow');
+    });
     if ($(this).next().length > 0) {
       $(this).addClass("parent");
     };
