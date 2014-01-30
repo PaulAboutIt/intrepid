@@ -3,7 +3,7 @@ var services = [
     text: "What we do: Data exchange and interoperability needs assessments and strategic planning; community and enterprise HIE management services; vendor selection and technology implementation guidance; stakeholder outreach and engagement; policy development focused on alignment with federal and state initiatives (e.g. state-based HIE infrastructures, Healtheway)."},
   {title: "Population Health Data Management / Analytics",
     text: "What we do: Support provider, government, and non-profit institutions in realizing their goals for population health management. We draw upon our health IT industry subject matter expertise and deep architectural systems design skillsets."},
-  {title: "Meaningful Use of Electronic Health Records (EHRs)",
+  {title: "Meaningful Use of Electronic Health Records (ehrs)",
     text: "What we do: Support providers in meeting Meaningful Use requirements, especially new requirements in 2014 related to data exchange including Transitions of Care and:"},
   {title: "Public Health Reporting ",
     text: "What we do: Assessments of providers’ current capabilities and needs for the electronic submission of data; guidance on efficiently meeting local, state, and federal requirements including Meaningful Use; vendor selection; system integration/implementation."},
@@ -18,12 +18,12 @@ var services = [
 var clients = [
   {
   name: "Axesson",
-  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched California Direct, the state’s first publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
+  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched <a href='http://www.californiadirect.org/' target='_external' >California Direct</a>, the state’s first publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
   link: "http://axesson.com/",
-  url: "axesson.com/"
+  url: "axesson.com"
 },
 {
-  name: "National Association of Trusted Exchange (NATE)",
+  name: "National Association of Trusted Exchange (nate)",
   content: "National Association for Trusted Exchange (NATE) brings the expertise of state programs together to find common solutions that optimize appropriate exchange of health information for greater gains in adoption and outcomes.  Emerging from a pilot project supported by the Office of the National Coordinator for Health Information Technology named the Western States Consortium, NATE was established as a not-for-profit incorporated in Washington, D.C. on May 1, 2013.",
   link: "http://nate-trust.org",
   url: "nate-trust.org"

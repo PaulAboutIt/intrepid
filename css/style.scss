@@ -195,6 +195,18 @@ body {
     width: 100%;
   }
 }
+.home {
+  .logo {
+    width:200px;
+    top:-25px;
+  }
+  .banner h2 {
+    margin-left:61px;
+  }
+  .menu {
+    padding-left:250px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -354,6 +366,8 @@ h2.style {
   text-shadow: 0 1px 0 #22373c;
   line-height: 1.2em;
   margin-top: -70px;
+  font-size:30px;
+  text-transform:lowercase;
 }
 
 .banner {
@@ -375,6 +389,7 @@ h2.style {
   h2 {
     margin-top:5px;
     text-shadow: 2px 2px 2px #19282C;
+    font-size:30px;
     @media only screen and (min-width: 1281px) {
       //margin-top:160px;
       //margin-left:100px;
@@ -678,6 +693,10 @@ h2.style1 {
   line-height: 1.2em;
   letter-spacing: -1px;
   color:#263923;
+  text-transform:lowercase;
+}
+.rfix {
+  letter-spacing:-5px;
 }
 .main {
   h2.style1 {

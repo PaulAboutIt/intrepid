@@ -140,6 +140,14 @@ body {
     z-index: 2;
     width: 100%; }
 
+.home .logo {
+  width: 200px;
+  top: -25px; }
+.home .banner h2 {
+  margin-left: 61px; }
+.home .menu {
+  padding-left: 250px; }
+
 @media screen and (max-width: 768px) {
   .logo {
     width: 100%; }
@@ -262,7 +270,9 @@ h2.style {
   color: #ffffff;
   text-shadow: 0 1px 0 #22373c;
   line-height: 1.2em;
-  margin-top: -70px; }
+  margin-top: -70px;
+  font-size: 30px;
+  text-transform: lowercase; }
 
 .banner {
   width: 70%;
@@ -281,7 +291,8 @@ h2.style {
     height: 1px; }
   .banner h2 {
     margin-top: 5px;
-    text-shadow: 2px 2px 2px #19282C; }
+    text-shadow: 2px 2px 2px #19282C;
+    font-size: 30px; }
 
 p.para {
   margin-top: 4%;
@@ -510,7 +521,11 @@ h2.style1 {
   text-shadow: 0 1px 0 white;
   line-height: 1.2em;
   letter-spacing: -1px;
-  color: #263923; }
+  color: #263923;
+  text-transform: lowercase; }
+
+.rfix {
+  letter-spacing: -5px; }
 
 .main h2.style1 {
   font-size: 1.8em;
