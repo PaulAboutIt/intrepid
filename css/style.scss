@@ -195,18 +195,6 @@ body {
     width: 100%;
   }
 }
-.home {
-  .logo {
-    width:200px;
-    top:-25px;
-  }
-  .banner h2 {
-    margin-left:61px;
-  }
-  .menu {
-    padding-left:250px;
-  }
-}
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -1384,3 +1372,22 @@ body.home {
     }
   }
 }
+
+
+
+.home {
+  .logo {
+    position:relative;
+    width:200px;
+    top:-25px;
+  }
+  .banner h2 {
+    margin-left:61px;
+  }
+  .menu {
+    padding-left:250px;
+  }
+}
+
+
+
