@@ -34,3 +34,27 @@ var clients = [
   link: "http://23eleven.net",
   url: "23eleven.net"
 }];
+
+
+var quotes = [
+  {
+    text: "The digital world has been in a separate orbit from our medical cocoon, and it’s time the boundaries be taken down.",
+    author: "Eric Topol"
+  },
+  {
+    text: "Interoperability must be addressed now, or else widespread adoption of stand-alone EHRs will be <em>a fait accompli</em>." ,
+    author: "David Brailer"
+  },
+  {
+    text: "Over-architected HIE approaches hit a CIO where it hurts most… Better to proceed with achievable steps that deliver incremental value along the way.",
+    author: "Micky Tripathi"
+  },
+  {
+    text: "Our longer term vision is that every healthcare interaction benefits from all the world’s knowledge. Every encounter that generates knowledge should add to the world’s knowledge.",
+    author: "Farzad Mostashari"
+  },
+  {
+    text: "Just because I have a fitness app on my phone doesn’t make me an athlete.",
+    author: "Harry Greenspan"
+  }
+];

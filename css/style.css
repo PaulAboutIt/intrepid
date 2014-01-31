@@ -1090,3 +1090,8 @@ body.home .header_bg .wrapper {
   margin-left: 61px; }
 .home .menu {
   padding-left: 250px; }
+@media screen and (min-width: 1280px) {
+  .home .banner h2 {
+    margin-left: 130px; }
+  .home .menu {
+    padding-left: 290px; } }

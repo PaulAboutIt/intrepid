@@ -1387,6 +1387,14 @@ body.home {
   .menu {
     padding-left:250px;
   }
+  @media screen and (min-width: 1280px) {
+    .banner h2 {
+        margin-left:130px;
+    }
+    .menu {
+      padding-left:290px;
+    }
+  }
 }
 
 

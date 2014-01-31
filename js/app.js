@@ -58,6 +58,7 @@ intrepidApp.controller('mainController', function($scope, $rootScope, $location)
 intrepidApp.controller('homeController', function($scope) {
   $scope.current = 'home';
   $scope.banner = true;
+  $scope.quotes = quotes;
   $scope.carrousel = function(){
     jQuery('#ca-container').contentcarousel();
   };
