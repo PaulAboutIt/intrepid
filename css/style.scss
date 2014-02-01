@@ -477,14 +477,19 @@ p.para1 {
     &.quote {
       margin-top: -28px;
       text-indent: 22px;
+      font-size:24px;
+      letter-spacing:-1px;
     }
-    &.close {
-      margin: -10px 0 0 60%;
-    }
+  }
+  .close {
+    float:right;
+    margin-top:-1em;
   }
   .author {
     text-align: right;
     font-size: 1.4em;
+    clear:both;
+    margin-top:1em;
   }
 
 }
@@ -648,6 +653,12 @@ p.para1 {
   padding:10px 0 10px;
   .service {
     padding:5px 0;
+    strong {
+      font-weight:bold;
+    }
+    .indented {
+      padding-left:30px;
+    }
   }
 }
 .main {
@@ -1339,6 +1350,22 @@ x:-o-prefocus, .lb-overlay img {
       color:black;
     }
   }
+  .client {
+    .logoc{
+      height: 200px;
+      float: left;
+      padding-top:10px;
+      margin-right:10px;
+      @media screen and (max-width: 768px) {
+        height:auto;
+        float:none;
+        padding:3px 0;
+        img {
+          
+        }
+      }
+    }
+  }
 }
 .contactForm {
   .contact-form {
@@ -1392,16 +1419,22 @@ body.home {
   }
   .banner h2 {
     margin-left:61px;
+    padding-left:30px;
   }
   .menu {
     padding-left:250px;
   }
   @media screen and (min-width: 1280px) {
     .banner h2 {
-        margin-left:130px;
+        margin-left:210px;
     }
     .menu {
-      padding-left:290px;
+      padding-left:410px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .menu {
+      padding-left:0;
     }
   }
 }

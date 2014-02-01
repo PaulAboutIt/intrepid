@@ -38,7 +38,7 @@ intrepidApp.config(function($routeProvider, $locationProvider) {
 
 
 // create the controller and inject Angular's $scope
-intrepidApp.controller('mainController', function($scope, $rootScope, $location) {
+intrepidApp.controller('mainController', function($scope, $rootScope, $location, $sce) {
   $scope.showBanner = function(){
     $scope.current = $location.path();
     $scope.banner = false;
@@ -52,6 +52,9 @@ intrepidApp.controller('mainController', function($scope, $rootScope, $location)
   $scope.$on("$routeChangeSuccess", function (event, next, current) {
     $scope.showBanner();
   });
+  $scope.trust = function(str){
+    return $sce.trustAsHtml(str);
+  };
 
 });
 
@@ -60,7 +63,15 @@ intrepidApp.controller('homeController', function($scope) {
   $scope.banner = true;
   $scope.quotes = quotes;
   $scope.carrousel = function(){
+    var int;
+    // every 3s
     jQuery('#ca-container').contentcarousel();
+    //int = setInterval("jQuery('.ca-nav-next').trigger('click');",3000);
+    jQuery('.ca-wrapper').hover(function(){
+        //clearInterval(int);
+    },function(){
+        //int = setInterval("jQuery('.ca-nav-next').trigger('click');",3000);
+    });
   };
 });
 
@@ -83,10 +94,6 @@ intrepidApp.controller('clientsController', function($scope, $sce) {
   $scope.current = 'service';
   $scope.banner = false;
   $scope.clients = clients;
-  $scope.trust = function(str){
-    console.log(str);
-    return $sce.trustAsHtml(str);
-  };
 });
 
 intrepidApp.controller('whoController', function($scope) {

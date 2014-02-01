@@ -362,12 +362,17 @@ p.para1 {
     display: block; }
     .ca-item h4 span.quote {
       margin-top: -28px;
-      text-indent: 22px; }
-    .ca-item h4 span.close {
-      margin: -10px 0 0 60%; }
+      text-indent: 22px;
+      font-size: 24px;
+      letter-spacing: -1px; }
+  .ca-item h4 .close {
+    float: right;
+    margin-top: -1em; }
   .ca-item h4 .author {
     text-align: right;
-    font-size: 1.4em; }
+    font-size: 1.4em;
+    clear: both;
+    margin-top: 1em; }
 
 .ca-nav span {
   width: 35px;
@@ -488,6 +493,10 @@ p.para1 {
   padding: 10px 0 10px; }
   .commercial .service {
     padding: 5px 0; }
+    .commercial .service strong {
+      font-weight: bold; }
+    .commercial .service .indented {
+      padding-left: 30px; }
 
 .main .service h2.style1, .main.whoweare h2.style1 {
   font-size: 1.33em;
@@ -1057,6 +1066,16 @@ x:-o-prefocus, .lb-overlay img {
     font-size: 1.5em; }
   .whoweare .profile strong {
     color: black; }
+.whoweare .client .logoc {
+  height: 200px;
+  float: left;
+  padding-top: 10px;
+  margin-right: 10px; }
+  @media screen and (max-width: 768px) {
+    .whoweare .client .logoc {
+      height: auto;
+      float: none;
+      padding: 3px 0; } }
 
 .contactForm .contact-form {
   clear: both;
@@ -1093,11 +1112,15 @@ body.home .header_bg .wrapper {
   width: 200px;
   top: -25px; }
 .home .banner h2 {
-  margin-left: 61px; }
+  margin-left: 61px;
+  padding-left: 30px; }
 .home .menu {
   padding-left: 250px; }
 @media screen and (min-width: 1280px) {
   .home .banner h2 {
-    margin-left: 130px; }
+    margin-left: 210px; }
   .home .menu {
-    padding-left: 290px; } }
+    padding-left: 410px; } }
+@media screen and (max-width: 768px) {
+  .home .menu {
+    padding-left: 0; } }
