@@ -6,14 +6,14 @@
   <div class="span1_of_1 left">
     <!-- start slider-text -->
     <div class="our-mission" id="team">
-      <div id="ca-container" class="ca-container" data-ng-init='carrousel()'>
+      <div id="ca-container" class="ca-container" >
         <div class="ca-wrapper">
-          <div class="ca-item ca-item-{{$index + 1}}" data-ng-repeat='quote in quotes'>
+          <div class="ca-item ca-item-{{$index + 1}}" data-ng-repeat='quote in quotes' repeat-done="carrousel()" >
             <div class="ca-item-main">
               <h4>
-                <span><img src="./images/quote.png"></span>
-                <span><p>{{quote.text}}</p></span>
-                <span class="quote"><img src="./images/quote1.png"></span>
+                <span class='open'><img src="./images/quote.png"></span>
+                <span class='quote'><p ng-bind='quote.text'></p></span>
+                <span class="close"><img src="./images/quote1.png"></span>
                 <p class='author'>{{quote.author}}</p>
               </h4>
             </div>

@@ -2,10 +2,9 @@
 <div class="wrap">
 <div class="wrapper">
 <div class="main whoweare">
-
     <div class="listview_1_of_2 images_1_of_2 profile" data-ng-repeat='client in clients'>
         <h2 class="style1">{{client.name}}</h3>
-        <p class="para1">{{client.content}}</p>
+        <p class="para1" data-ng-bind-html-unsafe="client.content"></p>
         <p class="para1"><a href='{{client.link}}' target='_external'>{{client.url}}</a></p>
     </div>
 </div>

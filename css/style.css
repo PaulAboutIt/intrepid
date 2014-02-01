@@ -361,7 +361,13 @@ p.para1 {
   .ca-item h4 span {
     display: block; }
     .ca-item h4 span.quote {
-      margin: 2% 0 0 26%; }
+      margin-top: -28px;
+      text-indent: 22px; }
+    .ca-item h4 span.close {
+      margin: -10px 0 0 60%; }
+  .ca-item h4 .author {
+    text-align: right;
+    font-size: 1.4em; }
 
 .ca-nav span {
   width: 35px;

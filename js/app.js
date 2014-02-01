@@ -2,7 +2,7 @@
 
 
 // create the module and name it scotchApp
-var intrepidApp = angular.module('intrepidApp', ['ngRoute']);
+var intrepidApp = angular.module('intrepidApp', ['ngRoute','ngSanitize']);
 
 
 
@@ -64,7 +64,13 @@ intrepidApp.controller('homeController', function($scope) {
   };
 });
 
-
+intrepidApp.directive('repeatDone', function() {
+  return function(scope, element, attrs) {
+    if (scope.$last) { // all are rendered
+      scope.$eval(attrs.repeatDone);
+    }
+  }
+});
 
 intrepidApp.controller('serviceController', function($scope) {
   $scope.current = 'service';

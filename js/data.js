@@ -42,7 +42,7 @@ var quotes = [
     author: "Eric Topol"
   },
   {
-    text: "Interoperability must be addressed now, or else widespread adoption of stand-alone EHRs will be <em>a fait accompli</em>." ,
+    text: "Interoperability must be addressed now, or else widespread adoption of stand-alone EHRs will be a fait accompli." ,
     author: "David Brailer"
   },
   {
