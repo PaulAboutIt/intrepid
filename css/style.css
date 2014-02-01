@@ -363,11 +363,13 @@ p.para1 {
     .ca-item h4 span.quote {
       margin-top: -28px;
       text-indent: 22px;
-      font-size: 24px;
+      font-size: 23px;
       letter-spacing: -1px; }
+    .ca-item h4 span.cosarara {
+      letter-spacing: 1px; }
   .ca-item h4 .close {
     float: right;
-    margin-top: -1em; }
+    margin-top: -1.2em; }
   .ca-item h4 .author {
     text-align: right;
     font-size: 1.4em;

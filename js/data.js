@@ -62,6 +62,7 @@ var quotes = [
   },
   {
     text: "Just because I have a fitness app on my phone doesn’t make me an athlete.",
-    author: "Harry Greenspan"
+    author: "Harry Greenspan",
+    strech: true
   }
 ];
