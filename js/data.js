@@ -50,7 +50,7 @@ var quotes = [
   },
   {
     text: "Interoperability must be addressed now, or else widespread adoption of stand-alone EHRs will be a fait accompli." ,
-    author: "David Brailer"
+    author: "David Brailer, 2005"
   },
   {
     text: "Over-architected HIE approaches hit a CIO where it hurts most… Better to proceed with achievable steps that deliver incremental value along the way.",
