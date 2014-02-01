@@ -79,10 +79,14 @@ intrepidApp.controller('serviceController', function($scope) {
 });
 
 
-intrepidApp.controller('clientsController', function($scope) {
+intrepidApp.controller('clientsController', function($scope, $sce) {
   $scope.current = 'service';
   $scope.banner = false;
   $scope.clients = clients;
+  $scope.trust = function(str){
+    console.log(str);
+    return $sce.trustAsHtml(str);
+  };
 });
 
 intrepidApp.controller('whoController', function($scope) {
