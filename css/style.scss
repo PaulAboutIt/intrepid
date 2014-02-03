@@ -1385,6 +1385,9 @@ x:-o-prefocus, .lb-overlay img {
     strong {
       color:black;
     }
+    .para1 {
+      margin-top:1em;
+    }
   }
   .client {
     a.bolder {
@@ -1460,6 +1463,12 @@ body.home {
     position:relative;
     width:200px;
     top:-25px;
+    @media screen and (max-width:640px){
+      width:100%;
+      margin:0;
+      padding:0;
+      position:static;
+    }
   }
   .banner h2 {
     margin-left:61px;

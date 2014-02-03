@@ -1093,6 +1093,8 @@ x:-o-prefocus, .lb-overlay img {
     font-size: 1.5em; }
   .whoweare .profile strong {
     color: black; }
+  .whoweare .profile .para1 {
+    margin-top: 1em; }
 .whoweare .client a.bolder {
   text-decoration: underline;
   color: #295816;
@@ -1144,6 +1146,12 @@ body.home .header_bg .wrapper {
   position: relative;
   width: 200px;
   top: -25px; }
+  @media screen and (max-width: 640px) {
+    .home .logo {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      position: static; } }
 .home .banner h2 {
   margin-left: 61px;
   padding-left: 30px; }
