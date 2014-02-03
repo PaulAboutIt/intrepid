@@ -69,12 +69,12 @@ intrepidApp.controller('homeController', function($scope, $route) {
   $scope.carrousel = function(){
     var int;
     // every 3s
-    jQuery('#ca-container').contentcarousel();
-    int = setInterval($scope.nextQuote, 3000);
+    jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, itemSpeed: 1000, sliderEasing: 'easeInSine'});
+    int = setInterval($scope.nextQuote, 8000);
     jQuery('.ca-wrapper').hover(function(){
         clearInterval(int);
     },function(){
-        int = setInterval($scope.nextQuote, 3000);
+        int = setInterval($scope.nextQuote, 8000);
     });
     window.onresize = function(event) {
       clearInterval(int);
