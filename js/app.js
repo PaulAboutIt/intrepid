@@ -65,19 +65,19 @@ intrepidApp.controller('homeController', function($scope, $route) {
   $scope.nextQuote = function(){
     jQuery('.ca-nav-next').trigger('click');
   };
-
+  
   $scope.carrousel = function(){
-    var int;
     // every 3s
-    jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, itemSpeed: 1000, sliderEasing: 'easeInSine'});
-    int = setInterval($scope.nextQuote, 8000);
+    jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, sliderEasing: 'easeInSine'});
+
+    $scope.int = setInterval($scope.nextQuote, 8000);
     jQuery('.ca-wrapper').hover(function(){
-        clearInterval(int);
+        clearInterval($scope.int);
     },function(){
-        int = setInterval($scope.nextQuote, 8000);
+        $scope.int = setInterval($scope.nextQuote, 8000);
     });
     window.onresize = function(event) {
-      clearInterval(int);
+      clearInterval($scope.int);
       $route.reload();
     };
 
