@@ -519,8 +519,10 @@ p.para1 {
   font-size: 1.33em;
   color: #263923; }
 .main p.para1 {
-  font-size: 14px;
-  margin-top: 0; }
+  font-size: 15px;
+  margin-top: 0;
+  line-height: 2em;
+  max-width: 600px; }
 
 /*  GRID OF THREE */
 .grid_1_of_3 {
