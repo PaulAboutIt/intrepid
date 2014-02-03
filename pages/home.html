@@ -11,8 +11,8 @@
           <div class="ca-item ca-item-{{$index + 1}}" data-ng-repeat='quote in quotes' repeat-done="carrousel()" >
             <div class="ca-item-main">
               <h4>
-                <span class='open'><img src="./images/quote.png"></span>
-                <span class='quote' data-ng-class="{cosarara: quote.strech}"><p >{{quote.text}} </p> <img src="./images/quote1.png" class='close'> </span>
+                <!--<span class='open'><img src="./images/quote.png"></span>-->
+                <span class='quote' data-ng-class="{cosarara: quote.strech, longer: quote.longer }"><p><em class='lquote'>&#8220;</em>{{quote.text}}<em class='rquote'>&#8221;</em></p></span>
                 <p class='author'>{{quote.author}}</p>
               </h4>
             </div>

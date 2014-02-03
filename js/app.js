@@ -58,21 +58,31 @@ intrepidApp.controller('mainController', function($scope, $rootScope, $location,
 
 });
 
-intrepidApp.controller('homeController', function($scope) {
+intrepidApp.controller('homeController', function($scope, $route) {
   $scope.current = 'home';
   $scope.banner = true;
   $scope.quotes = quotes;
+  $scope.nextQuote = function(){
+    jQuery('.ca-nav-next').trigger('click');
+  };
+
   $scope.carrousel = function(){
     var int;
     // every 3s
     jQuery('#ca-container').contentcarousel();
-//    int = setInterval("jQuery('.ca-nav-next').trigger('click');",3000);
+    int = setInterval($scope.nextQuote, 3000);
     jQuery('.ca-wrapper').hover(function(){
-        //clearInterval(int);
+        clearInterval(int);
     },function(){
-        //int = setInterval("jQuery('.ca-nav-next').trigger('click');",3000);
+        int = setInterval($scope.nextQuote, 3000);
     });
+    window.onresize = function(event) {
+      clearInterval(int);
+      $route.reload();
+    };
+
   };
+
 });
 
 intrepidApp.directive('repeatDone', function() {

@@ -361,12 +361,27 @@ p.para1 {
   .ca-item h4 span {
     display: block; }
     .ca-item h4 span.quote {
-      margin-top: -28px;
-      text-indent: 22px;
       font-size: 23px;
       letter-spacing: -1px; }
     .ca-item h4 span.cosarara {
-      letter-spacing: 1px; }
+      letter-spacing: 0px; }
+    .ca-item h4 span.longer {
+      letter-spacing: -1px;
+      font-size: 21px; }
+  .ca-item h4 em {
+    font-size: 400%;
+    color: #263923;
+    height: 45px; }
+    .ca-item h4 em.lquote {
+      float: left;
+      margin-top: -20px;
+      padding-top: 35px;
+      margin-bottom: -50px; }
+    .ca-item h4 em.rquote {
+      float: right;
+      height: 25px;
+      margin-top: 0px;
+      padding-top: 35px; }
   .ca-item h4 .close {
     float: right;
     margin-top: -1.2em; }
@@ -381,15 +396,15 @@ p.para1 {
   height: 35px;
   background: #ff992b url(../images/arrows.png) no-repeat top left;
   position: absolute;
-  top: 84%;
-  left: 76%;
+  top: 100%;
   text-indent: -9000px;
   cursor: pointer;
   z-index: 100; }
   .ca-nav span.ca-nav-next {
     background-position: top right;
-    left: auto;
-    right: 4px; }
+    left: 35px; }
+  .ca-nav span.ca-nav-prev {
+    left: 0px; }
   .ca-nav span:hover {
     opacity: 1.0; }
 
@@ -504,7 +519,8 @@ p.para1 {
   font-size: 1.33em;
   color: #263923; }
 .main p.para1 {
-  font-size: 14px; }
+  font-size: 14px;
+  margin-top: 0; }
 
 /*  GRID OF THREE */
 .grid_1_of_3 {
@@ -945,7 +961,6 @@ x:-o-prefocus, .lb-overlay img {
 
   .ca-container {
     height: 220px; }
-
   .address h3.top {
     margin-top: 2%; }
 
@@ -1013,6 +1028,10 @@ x:-o-prefocus, .lb-overlay img {
 
   .images_1_of_3 img {
     margin: 0% 0 0%; } }
+  @media only screen and (max-width: 640px) and (max-width: 470px) {
+    .ca-container {
+      height: 370px; } }
+
 @media only screen and (max-width: 480px) {
   .wrap {
     width: 95%; }
@@ -1060,7 +1079,13 @@ x:-o-prefocus, .lb-overlay img {
     margin-top: 20%; }
 
   h2.style {
-    font-size: 2em; } }
+    font-size: 1em;
+    padding: 0;
+    margin: 0; }
+
+  .home .banner h2.style {
+    padding-left: 0;
+    margin-left: 0; } }
 .whoweare .profile {
   border-bottom: 1px solid rgba(38, 57, 35, 0.73);
   padding: 10px 0; }
@@ -1068,11 +1093,17 @@ x:-o-prefocus, .lb-overlay img {
     font-size: 1.5em; }
   .whoweare .profile strong {
     color: black; }
+.whoweare .client a.bolder {
+  text-decoration: underline;
+  color: #295816;
+  font-weight: bold; }
+  .whoweare .client a.bolder:hover {
+    opacity: 0.8; }
 .whoweare .client .logoc {
   height: 200px;
-  float: left;
+  float: right;
   padding-top: 10px;
-  margin-right: 10px; }
+  margin-left: 10px; }
   @media screen and (max-width: 768px) {
     .whoweare .client .logoc {
       height: auto;

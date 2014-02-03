@@ -475,15 +475,37 @@ p.para1 {
   span {
     display: block;
     &.quote {
-      margin-top: -28px;
-      text-indent: 22px;
+      //margin-top: -28px;
+      //text-indent: 22px;
       font-size:23px;
       letter-spacing:-1px;
     }
     &.cosarara{
       letter-spacing:0px;
     }
+    &.longer{
+      letter-spacing:-1px;
+      font-size:21px;
+    }
   }
+  em {
+      font-size: 400%;
+      color: #263923;
+      height: 45px;
+    &.lquote {
+      float: left;
+      margin-top: -20px;
+      padding-top: 35px;
+      margin-bottom: -50px;
+    }
+    &.rquote {
+      float:right;
+      height: 25px;
+      margin-top: 0px;
+      padding-top: 35px;
+    }
+  }
+
   .close {
     float:right;
     margin-top:-1.2em;
@@ -502,15 +524,16 @@ p.para1 {
   height: 35px;
   background: #ff992b url(../images/arrows.png) no-repeat top left;
   position: absolute;
-  top: 84%;
-  left: 76%;
+  top: 100%;
   text-indent: -9000px;
   cursor: pointer;
   z-index: 100;
   &.ca-nav-next {
     background-position: top right;
-    left: auto;
-    right: 4px;
+    left: 35px;
+  }
+  &.ca-nav-prev {
+    left:0px;
   }
   &:hover {
     opacity: 1.0;
@@ -673,6 +696,7 @@ p.para1 {
   }
   p.para1 {
     font-size:14px;
+    margin-top:0;
   }
 }
 /*  GRID OF THREE */
@@ -1214,6 +1238,9 @@ x:-o-prefocus, .lb-overlay img {
   }
   .ca-container {
     height: 220px;
+    @media only screen and (max-width: 470px){
+      height:370px;
+    }
   }
   .address h3.top {
     margin-top: 2%;
@@ -1338,7 +1365,13 @@ x:-o-prefocus, .lb-overlay img {
     margin-top: 20%;
   }
   h2.style {
-    font-size: 2em;
+    font-size: 1em;
+    padding:0;
+    margin:0;
+  }
+  .home .banner h2.style {
+    padding-left:0;
+    margin-left:0 ;
   }
 }
 
@@ -1354,11 +1387,19 @@ x:-o-prefocus, .lb-overlay img {
     }
   }
   .client {
+    a.bolder {
+      text-decoration:underline;
+      color:#295816;
+      font-weight:bold;
+      &:hover {
+        opacity:0.8;
+      }
+    }
     .logoc{
       height: 200px;
-      float: left;
+      float: right;
       padding-top:10px;
-      margin-right:10px;
+      margin-left:10px;
       @media screen and (max-width: 768px) {
         height:auto;
         float:none;

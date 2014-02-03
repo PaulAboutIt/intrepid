@@ -22,7 +22,7 @@ var services = [
 var clients = [
   {
   name: "Axesson",
-  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched <a href='http://www.californiadirect.org/' target='_external' >California Direct</a>, the state’s first publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
+  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched <a href='http://www.californiadirect.org/' class='bolder' target='_external' >California Direct</a>, the state’s first publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
   link: "http://axesson.com/",
   url: "axesson.com",
   img: "./images/axesson.png"
@@ -58,7 +58,8 @@ var quotes = [
   },
   {
     text: "Our longer term vision is that every healthcare interaction benefits from all the world’s knowledge. Every encounter that generates knowledge should add to the world’s knowledge.",
-    author: "Farzad Mostashari"
+    author: "Farzad Mostashari",
+    longer: "true"
   },
   {
     text: "Just because I have a fitness app on my phone doesn’t make me an athlete.",
