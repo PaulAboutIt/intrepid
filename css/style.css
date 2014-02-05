@@ -441,6 +441,24 @@ p.para1 {
       .footer_bg .wrap .wrapper .f_grid {
         padding: 0;
         margin: 0; }
+    .footer_bg .wrap .address {
+      float: left; }
+      @media screen and (max-width: 760px) {
+        .footer_bg .wrap .address {
+          width: 100%; }
+          .footer_bg .wrap .address p {
+            width: 100%;
+            text-align: center; } }
+    .footer_bg .wrap .flag {
+      float: right; }
+      .footer_bg .wrap .flag img {
+        width: 250px; }
+      @media screen and (max-width: 760px) {
+        .footer_bg .wrap .flag {
+          width: 100%; }
+          .footer_bg .wrap .flag img {
+            display: block;
+            margin: 5px auto; } }
   .footer_bg .copyright {
     color: white;
     font-size: 12px; }
@@ -792,11 +810,22 @@ x:-o-prefocus, .lb-overlay img {
   margin-top: 2%; }
   .contact-form div {
     padding: 8px 0; }
+  .contact-form.notifications {
+    text-align: center;
+    font-size: 2em; }
+    .contact-form.notifications .error {
+      color: red; }
+    .contact-form.notifications .success {
+      color: #263923; }
   .contact-form span label {
     color: #555555;
     display: block;
     font-size: 0.8725em;
     padding-bottom: 5px; }
+  .contact-form textarea.ng-invalid.ng-dirty, .contact-form input.ng-invalid.ng-dirty {
+    border: 1px solid red; }
+  .contact-form textarea.ng-valid.ng-dirty, .contact-form input.ng-valid.ng-dirty {
+    border: 1px solid green; }
 
 .company_address p {
   padding: 2px 0;
@@ -815,7 +844,7 @@ x:-o-prefocus, .lb-overlay img {
 
 .contact-form form {
   margin-top: 10px; }
-.contact-form input[type="text"] {
+.contact-form input[type="text"], .contact-form input[type="email"] {
   font-size: 0.8725em;
   color: #555555;
   padding: 12px 8px;

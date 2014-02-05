@@ -582,6 +582,32 @@ p.para1 {
         margin:0;
       }
     }
+
+// NSIntrepid1
+
+    .address {
+      float:left;
+      @media screen and (max-width:760px){
+        width:100%;
+        p {
+          width:100%;
+          text-align:center;
+        }
+      }
+    }
+    .flag {
+      float:right;
+      img {
+        width:250px;
+      }
+      @media screen and (max-width:760px){
+        width:100%;
+        img {
+          display:block;
+          margin:5px auto;
+        }
+      }
+    }
   }
   .copyright {
     color:white;
@@ -1040,12 +1066,29 @@ x:-o-prefocus, .lb-overlay img {
   div {
     padding: 8px 0;
   }
+  &.notifications {
+    text-align:center;
+    font-size:2em;
+    .error {
+      color:red;
+    }
+    .success {
+      color: #263923;
+    }
+  }
   span label {
     color: #555555;
     display: block;
     font-size: 0.8725em;
     padding-bottom: 5px;
   }
+  textarea.ng-invalid.ng-dirty, input.ng-invalid.ng-dirty {
+    border:1px solid red;
+  }
+  textarea.ng-valid.ng-dirty, input.ng-valid.ng-dirty {
+    border:1px solid green;
+  }
+
 }
 
 .company_address p {
@@ -1070,7 +1113,7 @@ x:-o-prefocus, .lb-overlay img {
   form {
     margin-top: 10px;
   }
-  input[type="text"] {
+  input[type="text"], input[type="email"] {
     font-size: 0.8725em;
     color: #555555;
     padding: 12px 8px;

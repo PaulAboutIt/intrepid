@@ -58,23 +58,40 @@ intrepidApp.controller('mainController', function($scope, $rootScope, $location,
 
 });
 
-intrepidApp.controller('homeController', function($scope, $route) {
+intrepidApp.controller('homeController', function($scope, $route, $http) {
+  $scope.sent = false;
+  $scope.error = false;
+  $scope.msg = {};
+
+  $scope.sendMsg = function(){
+    $http.post('/sendmail.php', $scope.msg ).
+      success(function(data, status, headers, config) {
+      $scope.sent = true;
+      $scope.error = false;
+    }).
+      error(function(data, status, headers, config) {
+      // or server returns response with an error status.
+      $scope.error = true;
+    });
+  }
+
+
   $scope.current = 'home';
   $scope.banner = true;
   $scope.quotes = quotes;
   $scope.nextQuote = function(){
     jQuery('.ca-nav-next').trigger('click');
   };
-  
+
   $scope.carrousel = function(){
     // every 3s
     jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, sliderEasing: 'easeInSine'});
 
     $scope.int = setInterval($scope.nextQuote, 8000);
     jQuery('.ca-wrapper').hover(function(){
-        clearInterval($scope.int);
+      clearInterval($scope.int);
     },function(){
-        $scope.int = setInterval($scope.nextQuote, 8000);
+      $scope.int = setInterval($scope.nextQuote, 8000);
     });
     window.onresize = function(event) {
       clearInterval($scope.int);

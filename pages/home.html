@@ -31,27 +31,31 @@
   </div>
   <div class="clear"></div>
   <div class='contactForm'>
-          <div class="contact-form">
+          <div class="contact-form notifications" data-ng-if='error === true || sent === true'>
+            <div class='success' data-ng-if='sent'>Message sent.</div>
+            <div class='error' data-ng-if='error'>We had a problem sending the message, please try again.</div>
+          </div>
+          <div class="contact-form" data-ng-if='sent === false'>
             <h2 class="style1">Contact Us</h2>
             <form method="post" action="contact-post.html">
                 <div>
                   <span><label>NAME</label></span>
-                  <span><input name="userName" type="text" class="textbox"></span>
+                  <span><input name="Name" type="text" class="textbox" required data-ng-model='msg.name'></span>
                 </div>
                 <div>
                   <span><label>E-MAIL</label></span>
-                  <span><input name="userEmail" type="text" class="textbox"></span>
+                  <span><input name="Email" type="email" class="textbox" data-ng-model='msg.email'></span>
                 </div>
                 <div>
                   <span><label>MOBILE</label></span>
-                  <span><input name="userPhone" type="text" class="textbox"></span>
+                  <span><input name="Phone" type="text" class="textbox" data-ng-model='msg.phone'></span>
                 </div>
                 <div>
                   <span><label>SUBJECT</label></span>
-                  <span><textarea name="userMsg"> </textarea></span>
+                  <span><textarea name="userMsg" data-ng-model='msg.subject' required ></textarea></span>
                 </div>
               <div>
-                <span><a class='send'  value="">Send</a></span>
+                <span><a class='send' data-ng-click='sendMsg()'>Send</a></span>
               </div>
           </form>
         </div>
