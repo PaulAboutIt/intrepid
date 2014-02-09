@@ -63,8 +63,9 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
   $scope.error = false;
   $scope.msg = {};
 
+
   $scope.sendMsg = function(){
-    $http.post('/sendmail.php', $scope.msg ).
+    $http({url: '/sendmail.php', method: 'POST', data: jQuery.param($scope.msg), headers: {'Content-Type': 'application/x-www-form-urlencoded'} }).
       success(function(data, status, headers, config) {
       $scope.sent = true;
       $scope.error = false;
@@ -73,25 +74,34 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
       // or server returns response with an error status.
       $scope.error = true;
     });
-  }
+  };
 
 
   $scope.current = 'home';
   $scope.banner = true;
   $scope.quotes = quotes;
+  $scope.speed = 8000;
+  $scope.currentSlide = 1;
   $scope.nextQuote = function(){
+    if( $scope.currentSlide >= $scope.quotes.length ){
+      clearInterval($scope.int);
+      return;
+    }
     jQuery('.ca-nav-next').trigger('click');
+    $scope.currentSlide++;
+    console.log( Math.round(new Date().getTime() / 1000) );
+    console.log($scope.currentSlide);
   };
 
   $scope.carrousel = function(){
-    // every 3s
+    // every 8s
     jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, sliderEasing: 'easeInSine'});
 
-    $scope.int = setInterval($scope.nextQuote, 8000);
+    $scope.int = setInterval($scope.nextQuote, $scope.speed);
     jQuery('.ca-wrapper').hover(function(){
       clearInterval($scope.int);
     },function(){
-      $scope.int = setInterval($scope.nextQuote, 8000);
+      $scope.int = setInterval($scope.nextQuote, $scope.speed);
     });
     window.onresize = function(event) {
       clearInterval($scope.int);
@@ -99,6 +109,14 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
     };
 
   };
+
+  $scope.$on("$routeChangeSuccess", function (event, next, current) {
+    $scope.currentSlide = 1;
+    clearInterval($scope.int);
+  });
+  $scope.$on('$locationChangeStart', function (event, next, current) {
+    clearInterval($scope.int);
+  });
 
 });
 

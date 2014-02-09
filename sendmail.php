@@ -37,7 +37,8 @@ $message = "A New message was sent through the contact form. \n";
 foreach ($_POST as $key => $val) {
     $message .= " $key: $val\n ";
 }
+
 mail('info@intrepidascent.com', '[CONTACT-FORM] IntrepidAscent.com', $message);
 
 
-echo "{success:true}";
+echo '{"success": true}';
