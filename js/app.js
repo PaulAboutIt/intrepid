@@ -88,12 +88,13 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
       return;
     }
     jQuery('.ca-nav-next').trigger('click');
-    $scope.currentSlide++;
   };
 
   $scope.carrousel = function(){
+
     // every 8s
     jQuery('#ca-container').contentcarousel({sliderSpeed: 1000, sliderEasing: 'easeInSine'});
+
 
     $scope.int = setInterval($scope.nextQuote, $scope.speed);
     jQuery('.ca-wrapper').hover(function(){
@@ -101,6 +102,17 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
     },function(){
       $scope.int = setInterval($scope.nextQuote, $scope.speed);
     });
+
+    jQuery('.ca-nav-next').on('click', function(){
+      $scope.currentSlide++;
+      clearInterval($scope.int);
+      if( $scope.currentSlide <= $scope.quotes.length ){
+        $scope.int = setInterval($scope.nextQuote, $scope.speed);
+        return;
+      }
+    });
+
+
     window.onresize = function(event) {
       clearInterval($scope.int);
       $route.reload();
