@@ -89,8 +89,6 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
     }
     jQuery('.ca-nav-next').trigger('click');
     $scope.currentSlide++;
-    console.log( Math.round(new Date().getTime() / 1000) );
-    console.log($scope.currentSlide);
   };
 
   $scope.carrousel = function(){
