@@ -1459,7 +1459,8 @@ x:-o-prefocus, .lb-overlay img {
       }
       &.tall {
           img {
-              max-height: 80px;
+              max-width: 100px;
+              margin-right: 35px;
           }
       }
       @media screen and (max-width: 768px) {
