@@ -1448,6 +1448,20 @@ x:-o-prefocus, .lb-overlay img {
       float: right;
       padding-top:10px;
       margin-left:10px;
+      &.short {
+          /* margin-right: -20px; */
+          /* width: 100px; */
+          img {
+              
+              
+              
+          }
+      }
+      &.tall {
+          img {
+              max-height: 100px;
+          }
+      }
       @media screen and (max-width: 768px) {
         height:auto;
         float:none;

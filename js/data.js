@@ -60,14 +60,16 @@ var clients = [
         content: "A joint, not-for-profit venture between the California Primary Care Association (CPCA), the California Medical Association (CMA), and the California Association of Public Hospitals and Health Systems (CAPH), the California Health Information Partnership & Services Organization (CalHIPSO) is the largest ONC Regional Extension Center in the country. Serving 56 of California’s 58 counties, CalHIPSO’s market stretches across the state in both urban and rural areas. To date, CalHIPSO has successfully assisted over 9000 California providers in attesting to Stage 1 of the Federal Electronic Health Record Meaningful Use Program.",
         link: "http://calhipso.org/",
         url: "calhipso.org/",
-        img: "./images/calhipso.jpg"
+        img: "./images/calhipso.jpg",
+        imgClass: "short"
     },
     {
         name: "RAND Corporation",
         content: "The RAND Corporation is a research organization that develops solutions to public policy challenges to help make communities throughout the world safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest.",
         link: "http://www.rand.org/",
         url: "rand.org",
-        img: "./images/rand.png"
+        img: "./images/rand.png",
+        imgClass: "tall"
     }
 
 ];
