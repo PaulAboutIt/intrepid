@@ -1,6 +1,6 @@
 var services = [
   {title: "Health Information Exchange / Interoperability",
-    text: "<strong>What we do:</strong> Data exchange and interoperability needs assessments and strategic planning; community and enterprise HIE management services; vendor selection and technology implementation guidance; stakeholder outreach and engagement; policy development focused on alignment with federal and state initiatives (e.g. state-based HIE infrastructures, Healtheway)."},
+    text: "<strong>What we do:</strong> Data exchange and interoperability strategic planning; vendor selection and technology implementation guidance; HIE management services; stakeholder outreach and engagement; policy development focused on alignment with federal and state initiatives (e.g. state-based HIE infrastructures, Healtheway)."},
   {title: "Population Health Data Management / Analytics",
     text: "<strong>What we do:</strong> Support provider, government, and non-profit institutions in realizing their goals for population health management. We draw upon our health IT industry subject matter expertise and deep architectural systems design skillsets."},
   {title: "Meaningful Use of Electronic Health Records (ehrs)",
@@ -28,20 +28,35 @@ var clients = [
   img: "./images/axesson.png"
 },
 {
-  name: "National Association of Trusted Exchange (nate)",
+  name: "National Association for Trusted Exchange (NATE)",
   content: "National Association for Trusted Exchange (NATE) brings the expertise of state programs together to find common solutions that optimize appropriate exchange of health information for greater gains in adoption and outcomes.  Emerging from a pilot project supported by the Office of the National Coordinator for Health Information Technology named the Western States Consortium, NATE was established as a not-for-profit incorporated in Washington, D.C. on May 1, 2013.",
   link: "http://nate-trust.org",
   url: "nate-trust.org",
   img: "./images/nate.png"
 },
 {
+  name: "California Telehealth Network",
+  content: 'The mission of the California Telehealth Network is to promote advanced information technologies and services to improve access to high quality healthcare, especially among medically underserved and rural Californians. CTN is California’s authorized FCC broadband consortia for healthcare with priority access to the FCC’s Healthcare Connect fund for California healthcare providers.',
+  link: "http://www.caltelehealth.org",
+  url: "caltelehealth.org",
+  img: './images/californiatelehealthnetwork.png'
+},
+{
+  name: "Marin Health & Human Services",
+  content: "Marin Health & Human Services promotes and protects the health, well-being, self-sufficiency, and safety of all people in Marin County.",
+  link: "http://marinhhs.org",
+  url: "marinhhs.org",
+  img: "./images/marinhealthandhumanservices.png"
+}
+];
+
+old =[{
   name: "23Eleven, LLC",
   content: "2311 works with multiple collaborative efforts to deliver on the promise of health Information exchange. Working closely with private, state, and federal clients who are committed to interoperable technology and policy across states and nationwide, 2311 delivers comprehensive health information exchange policy and technology expertise.",
   link: "http://23eleven.net",
   url: "23eleven.net",
   img: ""
 }];
-
 
 var quotes = [
   {

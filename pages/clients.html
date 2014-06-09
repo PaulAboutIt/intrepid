@@ -2,7 +2,7 @@
 <div class="wrap">
 <div class="wrapper">
 <div class="main whoweare">
-    <div class="listview_1_of_2 images_1_of_2 profile client" data-ng-repeat='client in clients'>
+    <div class="listview_1_of_2 images_1_of_2 profile client" data-ng-repeat="client in clients | orderBy:'name' ">
       <div  class='logoc' data-ng-if='client.img' ><img data-ng-src='{{client.img}}' /></div>
       <h2 class="style1">{{client.name}}</h3>
       <p class="para1" data-ng-bind-html="trust(client.content)"></p>

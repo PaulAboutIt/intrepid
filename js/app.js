@@ -81,8 +81,9 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
   $scope.banner = true;
   $scope.quotes = quotes;
   $scope.speed = 8000;
-  $scope.currentSlide = 1;
+  $scope.currentSlide = 0;
   $scope.nextQuote = function(){
+    console.log($scope.currentSlide);
     if( $scope.currentSlide >= $scope.quotes.length ){
       clearInterval($scope.int);
       return;
@@ -121,7 +122,7 @@ intrepidApp.controller('homeController', function($scope, $route, $http) {
   };
 
   $scope.$on("$routeChangeSuccess", function (event, next, current) {
-    $scope.currentSlide = 1;
+    $scope.currentSlide = 0;
     clearInterval($scope.int);
   });
   $scope.$on('$locationChangeStart', function (event, next, current) {
