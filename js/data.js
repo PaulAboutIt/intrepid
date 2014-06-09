@@ -47,7 +47,29 @@ var clients = [
   link: "http://marinhhs.org",
   url: "marinhhs.org",
   img: "./images/marinhealthandhumanservices.png"
-}
+},
+    {
+        name: "San Joaquin Community Health Information Exchange",
+        content: "The San Joaquin Community HIE (SJCHIE) is a not-for-profit community effort jointly founded by San Joaquin General Hospital, the San Joaquin County Department of Health and Human Services, Community Medical Centers (CMC), and the Health Plan of San Joaquin. The exchange’s mission is to promote the holistic well-being of the members of the San Joaquin County community through the secure exchange of all health information. SJCHIE contracts with Inland Empire HIE to utilize its data exchange platform from Orion Health.",
+        link: "",
+        url: "",
+        img: "./images/sanjoaquin.jpg"
+    },
+    {
+        name: "California Health Information Partnership & Services Organization",
+        content: "A joint, not-for-profit venture between the California Primary Care Association (CPCA), the California Medical Association (CMA), and the California Association of Public Hospitals and Health Systems (CAPH), the California Health Information Partnership & Services Organization (CalHIPSO) is the largest ONC Regional Extension Center in the country. Serving 56 of California’s 58 counties, CalHIPSO’s market stretches across the state in both urban and rural areas. To date, CalHIPSO has successfully assisted over 9000 California providers in attesting to Stage 1 of the Federal Electronic Health Record Meaningful Use Program.",
+        link: "http://calhipso.org/",
+        url: "calhipso.org/",
+        img: "./images/calhipso.jpg"
+    },
+    {
+        name: "RAND Corporation",
+        content: "The RAND Corporation is a research organization that develops solutions to public policy challenges to help make communities throughout the world safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest.",
+        link: "http://www.rand.org/",
+        url: "rand.org",
+        img: "./images/rand.png"
+    }
+
 ];
 
 old =[{
