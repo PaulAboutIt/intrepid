@@ -147,15 +147,14 @@ intrepidApp.controller('serviceController', function($scope) {
 
 
 intrepidApp.controller('clientsController', function($scope, $sce) {
+  // clients globals found in js/data.js
   $scope.current = 'service';
   $scope.banner = false;
-  $scope.clients = clients;
+  $scope.clients2014 = clients2014;
+  $scope.clients2015 = clients2015;
 });
 
 intrepidApp.controller('whoController', function($scope) {
   $scope.current = 'who';
   $scope.banner = false;
 });
-
-
-

@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
       $(this).addClass("parent");
     };
   });
-  
+
   $(".toggleMenu").click(function(e) {
     e.preventDefault();
     $(this).toggleClass("active");
@@ -43,7 +43,7 @@ var adjustMenu = function($) {
       e.preventDefault();
       $(this).parent("li").toggleClass("hover");
     });
-  } 
+  }
   else if (ww >= 768) {
     $(".toggleMenu").css("display", "none");
     $(".nav").show();
