@@ -223,6 +223,8 @@ body {
   left:0;
   font-family: optimusprincepsregular;
   font-size: 1.4em;
+  max-width: 100%;
+  box-sizing: border-box;
   .nav {
     li {
       padding:5px;
@@ -1452,9 +1454,9 @@ x:-o-prefocus, .lb-overlay img {
           /* margin-right: -20px; */
           /* width: 100px; */
           img {
-              
-              
-              
+
+
+
           }
       }
       &.tall {
