@@ -1554,5 +1554,21 @@ body.home {
   }
 }
 
-
+.fullwidth {
+  width: 100%;
+  max-width: 100%;
+}
+h2.subtitle {
+  font-size: 35px;
+  small {
+    font-size: 0.8em;
+  }
+}
+h3.subtitle {
+  font-size: 24px;
+  margin: 1em 0;
+  small {
+    font-size: 0.8em;
+  }
+}
 

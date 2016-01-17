@@ -1195,4 +1195,19 @@ body.home .header_bg .wrapper {
   .home .menu {
     padding-left: 0; } }
 
+.fullwidth {
+  width: 100%;
+  max-width: 100%; }
+
+h2.subtitle {
+  font-size: 35px; }
+  h2.subtitle small {
+    font-size: 0.8em; }
+
+h3.subtitle {
+  font-size: 24px;
+  margin: 1em 0; }
+  h3.subtitle small {
+    font-size: 0.8em; }
+
 /*# sourceMappingURL=style.css.map */
