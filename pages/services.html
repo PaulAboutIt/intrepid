@@ -1,17 +1,22 @@
 <!-- start content -->
 <div class="content_bg">
-<div class="wrap">
-<div class="wrapper">
-  <div class="main">
-    <h2 class="style1">Se<em class='rfix'>r</em>vice Areas</h2>
-    <div class="commercial">
-        <div class="grid_1_of_3 service" data-ng-repeat='service in services'>
-          <h2 class="style1" data-ng-class='{indented: service.indented}'>{{service.title}}</h2>
-          <p class="para1" data-ng-class='{indented: service.indented}' data-ng-bind-html='trust(service.text)'></p>
+  <div class="wrap">
+    <div class="wrapper">
+      <h2 class="subtitle">Approach</h2>
+      <p class="para1 fullwidth">
+        Intrepid Ascent equips clients with the knowledge to make informed decisions, the tools to execute their plans effectively, and the momentum to sustain change. We provide a full cycle of consulting services on complex engagements, including research and analysis, strategic planning, stakeholder engagement, system and organizational design, implementation, management, and program evaluation. We also support clients with specific needs in any of our service areas.
+      </p>
+      <div class="main">
+        <h2 class="style1">Se<em class='rfix'>r</em>vice Areas</h2>
+        <div class="commercial">
+          <div class="grid_1_of_3 service" data-ng-repeat='service in services'>
+            <h2 class="style1" data-ng-class='{indented: service.indented}'>{{service.title}}</h2>
+            <p class="para1 intro" data-ng-class='{indented: service.indented}' data-ng-bind-html='trust(service.intro)'></p>
+            <p class="para1" data-ng-class='{indented: service.indented}' data-ng-bind-html='trust(service.text)'></p>
+          </div>
+          <div class="clear"></div>
         </div>
-        <div class="clear"></div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 </div>

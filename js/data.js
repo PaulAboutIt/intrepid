@@ -1,44 +1,30 @@
 var services = [
   {
     title: "health information exchange / interoperability",
-    text: "<strong>What we do:</strong> Data exchange and interoperability strategic planning; vendor selection and technology implementation guidance; HIE management services; stakeholder outreach and engagement; governance and policy development focused on alignment with federal and state initiatives."
+    intro: "The demand on health care provider organizations to share clinical data for improved care coordination has never been greater, particularly as value-based payment environments grow more common and population health management activities become business-as-usual. With the increasing maturity and adoption of national health IT standards, there are many options today for effective and affordable data exchange within large enterprises or across medical communities with a shared patient population.",
+    text: "<strong>What we do:</strong> Intrepid Ascent provides data exchange and interoperability strategic planning, IT systems and security analysis, vendor selection and technology implementation guidance, stakeholder engagement, governance and policy development, workflow and process improvement, and ongoing management services."
 },
   {
-    title: "population health data management / analytics",
-    text: "<strong>What we do:</strong> Support providers, health systems, and community initiatives in realizing their goals for population health management. We draw upon our expertise in health IT, systems architecture design, and clinical data research networks."
+    title: "population health management",
+    intro: "The health care system is transitioning from an episodic model of care focused on discrete patient encounters to a focus on population health outcomes. To thrive in this emerging landscape requires significant cultural and operational change and the data infrastructure to support it",
+    text:  "<strong>What we do:</strong> Intrepid Ascent coaches leadership teams on establishing a compelling vision for improving health outcomes, identifying high-impact measures, implementing effective change management, and embracing data-driven performance improvement, whether enterprise-wide or for specific payment or quality programs. Our services include population health needs assessments and strategic planning; vendor assessments; program and technology implementation; and program evaluation."
 },
-  {
-    title: "Clinical Data Research Networks",
-    text: "<strong>What We Do:</strong> Provide guidance to emerging clinical data research networks on governance, policy, and technology alignment. Facilitate partnerships beyond research-oriented academic medical centers to include health systems, payers, health information exchange organizations, and community clinics."
+{
+    title: "health data protection",
+    intro: "With clinical data increasingly shared and manipulated across health care organizations, these organizations must develop appropriate safeguards against the potential misuse of patient health information. This is as much of a cultural and organizational challenge as it is a technical hurdle.",
+    text:  "<strong>What we do:</strong> Intrepid Ascent provides guidance on the development and implementation of robust frameworks for health information privacy and security appropriate to clients’ contexts. We conduct assessments on privacy and security risks and on an organization’s security culture; assess the privacy impacts of planned data systems and services; and support the development of appropriate policies, data governance, and technical infrastructure for EHR, analytics, and/or HIE projects. Throughout, we help organizations bring the right mix of stakeholders to the table, from clinical system users who “know data” to information system staff versed in network security, to facilitate the identification of common assumptions and goals and to facilitate comprehensive organizational change management."
 },
-  {
-    title: "Data Strategies for Managed Care",
-    text: "<strong>What We Do:</strong> Support health care organizations in developing and implementing the data infrastructure required to succeed in managed care and value-based payment environments. We advise on strategies and tactics for health data analytics, care coordination, and care management."
+{
+  title: "Clinical Data Research Networks",
+  intro: "Local, regional, and national data networks enabling clinical research on a massive scale are gaining traction and promise to unleash tremendous new knowledge, but they also present a novel set of challenges for data sharing and use.",
+  text : "<strong>What We Do:</strong> Provide guidance to emerging clinical data research networks on governance, policy, and technology alignment. Facilitate partnerships between research-oriented academic medical centers and other health systems, payers, health information exchange organizations, and community clinics."
 },
-  {
-    title: "it privacy, security, and infrastructure development",
-    text: "<strong>What we do:</strong> Guidance on the development and implementation of IT privacy and security policies, protocols, and technical infrastructure for large and small-scale EHR and/or HIE projects, such as HIPAA OMNIBUS rule compliance and HITECH Act data exchange security provisions; standards-driven solutions architecting for data exchange infrastructures."
-
-},
-  {
-    title: "meaningful use of electronic health records (ehrs)",
-    text: "<strong>What we do:</strong> Support providers in meeting Meaningful Use requirements, especially Stage 2 requirements related to data exchange including Transitions of Care and:"
-},
-  {
-    title: "public health reporting",
-    text: "<strong>What we do:</strong> Assessments of providers’ current capabilities and needs for the electronic submission of data; guidance on efficiently meeting local, state, and federal requirements including Meaningful Use; vendor selection; system integration/implementation.",
-    indented: true
-},
-  {
-    title: "patient engagement and access to information",
-    text: "<strong>What we do:</strong> Assessments of providers’ current capabilities and needs; guidance on 2014 Meaningful Use requirements for stages 1 and 2; recommend technical approaches; facilitate effective patient engagement and data sharing; promote and configure low-cost options using personal health records and Direct.",
-    indented: true
+{
+  title: "electronic health record (EHR) optimization",
+  intro: "Providers need their EHRs to do more than ever, from simplified interfacing with other systems, to data analytics for population health management, to portals for patient engagement, to reporting in a value-based environment, and all with an improved user experience. Federal EHR certification criteria and quality objectives further drive requirements for EHR vendors and expectations from their users.",
+  text : "<strong>What we do:</strong> Intrepid Ascent supports organizations in maximizing the value of their current EHR and in selecting a new EHR if appropriate. We address technical dynamics such as integrating an EHR with other systems, and operational dynamics such as workflow redesign and IT system efficiency analysis. We also support organizations in meeting their most challenging federal and payer requirements such as transitions of care, patient engagement and access to information, and quality measure and public health reporting."
 }
 ];
-
-
-
-
 
 var clients2014 = [
   {
