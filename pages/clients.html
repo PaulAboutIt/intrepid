@@ -2,14 +2,14 @@
   <div class="wrap">
     <div class="wrapper">
       <div class="main whoweare">
-        <h2 class="style1">Current 2015 Clients</h2>
+        <h2 class="style1">Current Clients</h2>
         <div class="listview_1_of_2 images_1_of_2 profile client" data-ng-repeat="client in clients2015  "> <!-- orderBy:'name' -->
           <div  class='logoc ' data-ng-class="client.imgClass" data-ng-if='client.img' ><img data-ng-src='{{client.img}}' alt="{{client.name}}" title="{{client.name}}" /></div>
           <h2 class="style1">{{client.name}}</h3>
           <p  class="para1" data-ng-bind-html="trust(client.content)"></p>
           <p  class="para1"><a href='{{client.link}}' target='_external'>{{client.url}}</a></p>
         </div>
-        <h2 class="style1">Additional 2014 Clients</h2>
+        <h2 class="style1">Previous Clients</h2>
         <div class="listview_1_of_2 images_1_of_2 profile client" data-ng-repeat="client in clients2014  "> <!-- orderBy:'name' -->
           <div  class='logoc ' data-ng-class="client.imgClass" data-ng-if='client.img' ><img data-ng-src='{{client.img}}' alt="{{client.name}}" title="{{client.name}}" /></div>
           <h2 class="style1">{{client.name}}</h2>
