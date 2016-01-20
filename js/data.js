@@ -35,27 +35,33 @@ var clients2014 = [
     img: "./images/axesson.png"
 },
   {
-    name: "California Health Information Partnership & Services Organization",
-    content: "A joint, not-for-profit venture between the California Primary Care Association (CPCA), the California Medical Association (CMA), and the California Association of Public Hospitals and Health Systems (CAPH), the California Health Information Partnership & Services Organization (CalHIPSO) is the largest ONC Regional Extension Center in the country. Serving 56 of California’s 58 counties, CalHIPSO’s market stretches across the state in both urban and rural areas. To date, CalHIPSO has successfully assisted over 9000 California providers in attesting to Stage 1 of the Federal Electronic Health Record Meaningful Use Program.",
-    link: "http://calhipso.org/",
-    url: "calhipso.org/",
-    img: "./images/calhipso.jpg",
-    imgClass: "short"
-},
+    name: "The California Department of Public Health (CDPH)",
+    content: "CDPH is dedicated to optimizing the health and well-being of the people of California. In 2015, CDPH engaged Intrepid Ascent to provide technical assistance to county health departments on leveraging health IT for quality improvement and population health as part of a CDC-funded program.",
+    link: "https://www.cdph.ca.gov/Pages/DEFAULT.aspx",
+    url: "cdph.ca.gov/",
+    img: "./images/california-public-health.png"
+  },
   {
-    name: "California Telehealth Network",
-    content: 'The mission of the California Telehealth Network is to promote advanced information technologies and services to improve access to high quality healthcare, especially among medically underserved and rural Californians. CTN is California’s authorized FCC broadband consortia for healthcare with priority access to the FCC’s Healthcare Connect fund for California healthcare providers.',
-    link: "http://www.caltelehealth.org",
-    url: "caltelehealth.org",
-    img: './images/californiatelehealthnetwork.png'
-},
+    name: "The California HealthCare Foundation (CHCF)",
+    content: "CHCF works to ensure that people have access to the care they need, when they need it, at a price they can afford. Intrepid Ascent recently completed an assessment for CHCF of the data infrastructure for population health management in the safety net in California today.",
+    link: "http://www.chcf.org",
+    url: "chcf.org",
+    img: "./images/california-health.png"
+  },
   {
-    name: "National Association for Trusted Exchange (NATE)",
-    content: "National Association for Trusted Exchange (NATE) brings the expertise of state programs together to find common solutions that optimize appropriate exchange of health information for greater gains in adoption and outcomes.  Emerging from a pilot project supported by the Office of the National Coordinator for Health Information Technology named the Western States Consortium, NATE was established as a not-for-profit incorporated in Washington, D.C. on May 1, 2013.",
-    link: "http://nate-trust.org",
-    url: "nate-trust.org",
-    img: "./images/nate.png"
-},
+    name: "The Center for Care Innovations (CCI)",
+    content: "CCI is a vital source of ideas, best practices, and funding for California’s health care safety net. CCI recently engaged Intrepid Ascent to research and present on the population health vendor landscape to a number of provider organizations participating in CCI-funded programs.",
+    link: "http://www.careinnovations.org/",
+    url: "careinnovations.org",
+    img: "./images/cci.png"
+  },
+  {
+    name: "The Central Valley Collaborative",
+    content: "The Central Valley Collaborative (CVC) supports a network of Federally Qualified Health Centers primarily located in California’s Central Valley on innovative health IT projects and high-impact quality improvement initiatives. Intrepid Ascent has been engaged to coordinate the implementation of a patient portal and to facilitate strategic health information exchange and interoperability projects.",
+    link: "http://hitacademy.org/cvc/",
+    url: "hitacademy.org/cvc",
+    img: "./images/cvc.png"
+  },
   {
     name: "RAND Corporation",
     content: "The RAND Corporation is a research organization that develops solutions to public policy challenges to help make communities throughout the world safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest.",
