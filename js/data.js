@@ -66,8 +66,73 @@ var clients2014 = [
 }
 ];
 
-
 var clients2015 = [
+  {
+    name: "California Office of Health Information Integrity (CalOHII)",
+    content: "CalOHII supports secure health information movement in California, and serves as the steward of the Model Modular Participation Agreement (MMPA), a template agreement for health information exchange. Intrepid Ascent has been engaged to update the MMPA to bring it into full alignment with current state and national policies and best practices.",
+    link: "http://www.ohii.ca.gov/",
+    url: "ohii.ca.gov",
+    img: "./images/calofficeofhealth.png"
+  },
+  {
+    name: "COPE Health Solutions",
+    content: "COPE Health Solutions is a leading healthcare corporation based in Los Angeles, California. COPE partners with hospitals, physician groups, health plans, clinics and other health care organizations to help them achieve visionary, market relevant health care solutions. Intrepid Ascent has been engaged to provide health IT strategic planning expertise for Performing Provider Systems in New York State funded through the Delivery System Reform Incentive Payment (DSRIP) program. New York will receive $8 billion from CMS for DSRIP over five years, with the goal of enabling high-quality integrated care and improved health outcomes for Medicaid beneficiaries in the state.",
+    link: "http://www.copehealthsolutions.org",
+    url: "copehealthsolutions.org",
+    img: "./images/cope-health.png"
+  },
+  {
+    name: "Marin County HHS",
+    content: "Marin Health & Human Services promotes and protects the health, well-being, self-sufficiency, and safety of all people in Marin County. Intrepid Ascent has been engaged since early 2014 to assist in the assessment, planning, and development of data-exchange and interoperability capabilities both within the HHS enterprise and in the local medical community. HHS seeks to improve public health outcomes in the County through IT-enabled care coordination and data management.",
+    link: "http://www.marinhhs.org",
+    url: "marinhhs.org",
+    img: "./images/marin-health.png"
+  },
+  {
+    name: "Merced County Department of Public Health",
+    content: "Merced County Department of Public Health provides essential programs and services to help protect and improve the health of its community. The County has engaged Intrepid Ascent to provide expertise in support of the implementation of two efforts funded by the Centers for Disease Control (CDC) to improve health outcomes. Intrepid Ascent is assessing existing data assets in the County, facilitating a multi-stakeholder health information exchange planning process, and managing the design and implementation of a program to monitor quality measures for diabetes and heart disease.",
+    link: "www.co.merced.ca.us",
+    url: "http://www.co.merced.ca.us/index.aspx?nid=82",
+    img: "./images/merced-county.png"
+  },
+  {
+    name: "Object Health",
+    content: "Object Health supports the adoption and implementation of health information technologies to improve the efficiency and effectiveness of community health care delivery. As a subcontractor to Object Health, Intrepid Ascent delivers technical assistance to providers and clinics enrolled in the EHR Incentive Program through the California Department of Healthcare Services (DHCS).",
+    link: "objecthealth.com",
+    url: "http://objecthealth.com/",
+    img: "./images/object-health.png"
+  },
+  {
+    name: "Robinson & Associates Consulting",
+    content: "Robinson & Associates (RAA) provides specialized consulting services to accelerate strategic initiatives and advance innovative practices, policies, and technologies in health information technology and exchange. With a flexible approach to bringing together subject-matter experts on specific projects, RAA provides deep expertise to address complex issues in health IT. Intrepid Ascent has been engaged on multiple RAA projects in Oregon, California, and Arizona, including physical-behavioral health integration initiatives and data interoperability projects facilitating standards-based data portability between major health systems and employer-based health centers.",
+    link: "raaconsult.com/",
+    url: "http://raaconsult.com/Home",
+    img: "./images/robinson-consulting.png"
+  },
+  {
+    name: "San Joaquin Community Health Information Exchange",
+    content: "The San Joaquin Community HIE (SJCHIE) is a not-for-profit community effort jointly founded by San Joaquin General Hospital, the San Joaquin County Department of Health and Human Services, Community Medical Centers (CMC), and the Health Plan of San Joaquin. SJCHIE’s mission is to promote the holistic well-being of the members of the San Joaquin County community through the secure exchange of health information. Mark Elson of Intrepid Ascent serves as the organization’s Executive Director.",
+    link: "sjchie.org/",
+    url: "http://www.sjchie.org/",
+    img: "./images/sanjoaquin.jpg"
+  },
+  {
+    name: "University of California at San Diego, School of Medicine",
+    content: "UCSD serves as the lead organization of the Patient-Centered Scalable National Network for Effectiveness Research (pSCANNER), a PCORI-funded clinical data research network with over 24 million patient lives. Intrepid Ascent is leading the development of pSCANNER’s governance framework and associated operational policies and procedures.",
+    link: "http://som.ucsd.edu/",
+    url: "som.ucsd.edu",
+    img: "./images/uc-san-diego.png"
+  },
+  {
+    name: "The University of Southern California, Keck School of Medicine",
+    content: "The Keck School of Medicine is home to the Keck Medical Center of USC, a state-of-the-art academic medical center, and a number of research institutes. Intrepid Ascent has been engaged to support projects of the Clinical Research Informatics Program within the Southern California Clinical and Translational Science Institute.",
+    link: "http://keck.usc.edu/",
+    url: "keck.usc.edu",
+    img: "./images/keck-health.png"
+  }
+];
+
+var clients2015old = [
   {
     name: "California Department of Public Health ",
     content: "The Chronic Disease Control Branch (CDCB) of the California Department of Public Health advances initiatives leading to the prevention and management of chronic diseases to promote a lifetime of wellness for all Californians. Intrepid Ascent has been engaged to provide technical assistance to ten County health departments participating in a CDC-funded program to monitor and improve cardiovascular disease and diabetes outcomes.",
