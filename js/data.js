@@ -6,7 +6,7 @@ var services = [
 },
   {
     title: "population health management",
-    intro: "The health care system is transitioning from an episodic model of care focused on discrete patient encounters to a focus on population health outcomes. To thrive in this emerging landscape requires significant cultural and operational change and the data infrastructure to support it",
+    intro: "The health care system is transitioning from an episodic model of care focused on discrete patient encounters to a focus on population health outcomes. To thrive in this emerging landscape requires significant cultural and operational change and the data infrastructure to support it.",
     text:  "<strong>What we do:</strong> Intrepid Ascent coaches leadership teams on establishing a compelling vision for improving health outcomes, identifying high-impact measures, implementing effective change management, and embracing data-driven performance improvement, whether enterprise-wide or for specific payment or quality programs. Our services include population health needs assessments and strategic planning; vendor assessments; program and technology implementation; and program evaluation."
 },
 {

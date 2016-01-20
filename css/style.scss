@@ -700,13 +700,13 @@ p.para1 {
   background: #5D95A4;
   padding: 0% 0 8%;
 }
-
+strong {
+  font-weight:bold;
+}
 .commercial {
-  margin: 10px 0;
   border-bottom: 1px solid rgba(38, 57, 35, 0.73);
-  padding:10px 0 10px;
+  padding-bottom: 20px;
   .service {
-    padding:5px 0;
     strong {
       font-weight:bold;
     }
@@ -733,7 +733,7 @@ p.para1 {
 
 .grid_1_of_3 {
   display: block;
-  margin: 4px 5%;
+  margin-left: 20px;
   margin-top: 17px;
   padding: 0;
 }
@@ -1424,13 +1424,13 @@ x:-o-prefocus, .lb-overlay img {
 
 .whoweare {
   .profile {
-    border-bottom: 1px solid rgba(38, 57, 35, 0.73);
+    // border-bottom: 1px solid rgba(38, 57, 35, 0.73);
     padding:10px 0;
     h2 {
       font-size:1.5em;
     }
     strong {
-      color:black;
+      // color:black;
     }
     .para1 {
       margin-top:1em;
@@ -1473,6 +1473,18 @@ x:-o-prefocus, .lb-overlay img {
 
         }
       }
+    }
+  }
+  .subtitle {
+    margin-top: 1em;
+  }
+  strong {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #263923;
+    font-family: 'optimusprincepsregular';
+    small {
+      font-size: 0.8em;
     }
   }
 }
@@ -1554,7 +1566,7 @@ body.home {
   }
 }
 
-.fullwidth {
+.fullwidth.fullwidth.fullwidth {
   width: 100%;
   max-width: 100%;
 }
@@ -1578,3 +1590,4 @@ p.intro {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
