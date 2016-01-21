@@ -536,7 +536,6 @@ strong {
     padding-left: 30px; }
 
 .main .service h2.style1, .main.whoweare h2.style1 {
-  font-size: 1.33em;
   color: #263923; }
 .main p.para1 {
   font-size: 15px;
@@ -621,7 +620,7 @@ h2.style1 {
   display: block; }
 
 .listview_1_of_2 {
-  margin: 6% 0; }
+  margin: 20px 0; }
 
 .listimg_2_of_1 {
   float: left;
