@@ -1450,13 +1450,11 @@ x:-o-prefocus, .lb-overlay img {
       float: right;
       padding-top:10px;
       margin-left:10px;
+      .wide {
+        max-width: 240px;
+      }
       &.short {
-          /* margin-right: -20px; */
-          /* width: 100px; */
           img {
-
-
-
           }
       }
       &.tall {

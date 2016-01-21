@@ -1126,9 +1126,8 @@ x:-o-prefocus, .lb-overlay img {
   float: right;
   padding-top: 10px;
   margin-left: 10px; }
-  .whoweare .client .logoc.short {
-    /* margin-right: -20px; */
-    /* width: 100px; */ }
+  .whoweare .client .logoc .wide {
+    max-width: 240px; }
   .whoweare .client .logoc.tall img {
     max-width: 100px;
     margin-right: 35px; }

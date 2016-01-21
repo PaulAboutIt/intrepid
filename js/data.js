@@ -28,47 +28,49 @@ var services = [
 
 var clients2014 = [
   {
-    name: "Axesson",
-    content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched <a href='http://www.californiadirect.org/' class='bolder' target='_external' >California Direct</a>, a publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
-    link: "http://axesson.com/",
-    url: "axesson.com",
-    img: "./images/axesson.png"
+  name: "Axesson",
+  content: "Axesson delivers health information exchange and analytic solutions enabling clinical connectivity. Axesson’s ClearExchange® platform powers the Santa Cruz HIE, one of the longest-running HIE ventures in the country. Axesson recently launched <a href='http://www.californiadirect.org/' class='bolder' target='_external' >California Direct</a>, a publicly funded platform for simple, secure exchange utilizing Direct technology standards.",
+  link: "http://axesson.com/",
+  url: "axesson.com",
+  img: "./images/axesson.png"
 },
-  {
-    name: "The California Department of Public Health (CDPH)",
-    content: "CDPH is dedicated to optimizing the health and well-being of the people of California. In 2015, CDPH engaged Intrepid Ascent to provide technical assistance to county health departments on leveraging health IT for quality improvement and population health as part of a CDC-funded program.",
-    link: "https://www.cdph.ca.gov/Pages/DEFAULT.aspx",
-    url: "cdph.ca.gov/",
-    img: "./images/california-public-health.png"
-  },
-  {
-    name: "The California HealthCare Foundation (CHCF)",
-    content: "CHCF works to ensure that people have access to the care they need, when they need it, at a price they can afford. Intrepid Ascent recently completed an assessment for CHCF of the data infrastructure for population health management in the safety net in California today.",
-    link: "http://www.chcf.org",
-    url: "chcf.org",
-    img: "./images/california-health.png"
-  },
-  {
-    name: "The Center for Care Innovations (CCI)",
-    content: "CCI is a vital source of ideas, best practices, and funding for California’s health care safety net. CCI recently engaged Intrepid Ascent to research and present on the population health vendor landscape to a number of provider organizations participating in CCI-funded programs.",
-    link: "http://www.careinnovations.org/",
-    url: "careinnovations.org",
-    img: "./images/cci.png"
-  },
-  {
-    name: "The Central Valley Collaborative",
-    content: "The Central Valley Collaborative (CVC) supports a network of Federally Qualified Health Centers primarily located in California’s Central Valley on innovative health IT projects and high-impact quality improvement initiatives. Intrepid Ascent has been engaged to coordinate the implementation of a patient portal and to facilitate strategic health information exchange and interoperability projects.",
-    link: "http://hitacademy.org/cvc/",
-    url: "hitacademy.org/cvc",
-    img: "./images/cvc.png"
-  },
-  {
-    name: "RAND Corporation",
-    content: "The RAND Corporation is a research organization that develops solutions to public policy challenges to help make communities throughout the world safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest.",
-    link: "http://www.rand.org/",
-    url: "rand.org",
-    img: "./images/rand.png",
-    imgClass: "tall"
+{
+  name: "The California Department of Public Health (CDPH)",
+  content: "CDPH is dedicated to optimizing the health and well-being of the people of California. In 2015, CDPH engaged Intrepid Ascent to provide technical assistance to county health departments on leveraging health IT for quality improvement and population health as part of a CDC-funded program.",
+  link: "https://www.cdph.ca.gov/Pages/DEFAULT.aspx",
+  url: "cdph.ca.gov/",
+  img: "./images/california-public-health.png",
+  wide: true
+},
+{
+  name: "The California HealthCare Foundation (CHCF)",
+  content: "CHCF works to ensure that people have access to the care they need, when they need it, at a price they can afford. Intrepid Ascent recently completed an assessment for CHCF of the data infrastructure for population health management in the safety net in California today.",
+  link: "http://www.chcf.org",
+  url: "chcf.org",
+  img: "./images/california-health.png",
+  wide: true
+},
+{
+  name: "The Center for Care Innovations (CCI)",
+  content: "CCI is a vital source of ideas, best practices, and funding for California’s health care safety net. CCI recently engaged Intrepid Ascent to research and present on the population health vendor landscape to a number of provider organizations participating in CCI-funded programs.",
+  link: "http://www.careinnovations.org/",
+  url: "careinnovations.org",
+  img: "./images/cci.png"
+},
+{
+  name: "The Central Valley Collaborative",
+  content: "The Central Valley Collaborative (CVC) supports a network of Federally Qualified Health Centers primarily located in California’s Central Valley on innovative health IT projects and high-impact quality improvement initiatives. Intrepid Ascent has been engaged to coordinate the implementation of a patient portal and to facilitate strategic health information exchange and interoperability projects.",
+  link: "http://hitacademy.org/cvc/",
+  url: "hitacademy.org/cvc",
+  img: "./images/cvc.png"
+},
+{
+  name: "RAND Corporation",
+  content: "The RAND Corporation is a research organization that develops solutions to public policy challenges to help make communities throughout the world safer and more secure, healthier and more prosperous. RAND is nonprofit, nonpartisan, and committed to the public interest.",
+  link: "http://www.rand.org/",
+  url: "rand.org",
+  img: "./images/rand.png",
+  imgClass: "tall"
 }
 ];
 
