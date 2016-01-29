@@ -8,11 +8,12 @@
     <div class="our-mission" id="team">
       <div id="ca-container" class="ca-container" >
         <div class="ca-wrapper">
-          <div class="ca-item ca-item-{{$index + 1}}" data-ng-repeat='quote in quotes' repeat-done="carrousel()" >
+          <div class="ca-item ca-item-{{$index + 1}}" data-ng-repeat='quote in quotes' data-repeat-done="carrousel()" >
             <div class="ca-item-main">
               <h4>
-                <!--<span class='open'><img src="./images/quote.png"></span>-->
-                <span class='quote' data-ng-class="{cosarara: quote.strech, longer: quote.longer }"><p><em class='lquote'>&#8220;</em>{{quote.text}}<em class='rquote'>&#8221;</em></p></span>
+                <span class='quote' data-ng-class="{cosarara: quote.strech, longer: quote.longer }">
+                  <p><em class='lquote'>&#8220;</em>{{quote.text}}<em class='rquote'>&#8221;</em></p>
+                </span>
                 <p class='author'>{{quote.author}}</p>
               </h4>
             </div>
@@ -30,6 +31,9 @@
     </p>
     <p class="para1 margin-top-1em">
       Please review the rest of our website to learn about who we are, our service areas, and recent client engagements. We also encourage you to contact us through the form below.
+    </p>
+    <p class="para1 margin-top-1em">
+      <a href="./docs/chcf-report.pdf" target="_blank">And here’s a link to our latest publication!</a>
     </p>
   </div>
   <div class="clear"></div>

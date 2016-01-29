@@ -44,7 +44,7 @@ var clients2014 = [
 },
 {
   name: "The California HealthCare Foundation (CHCF)",
-  content: "CHCF works to ensure that people have access to the care they need, when they need it, at a price they can afford. Intrepid Ascent recently completed an assessment for CHCF of the data infrastructure for population health management in the safety net in California today.",
+  content: "CHCF works to ensure that people have access to the care they need, when they need it, at a price they can afford. Intrepid Ascent recently completed <a href='./docs/chcf-report.pdf' target='_blank'>an assessment</a> for CHCF of the data infrastructure for population health management in the safety net in California today.",
   link: "http://www.chcf.org",
   url: "chcf.org",
   img: "./images/california-health.png",
