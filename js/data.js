@@ -4,6 +4,11 @@ var services = [
     intro: "The demand on health care provider organizations to share clinical data for improved care coordination has never been greater, particularly as value-based payment environments grow more common and population health management activities become business-as-usual. With the increasing maturity and adoption of national health IT standards, there are many options today for effective and affordable data exchange within large enterprises or across medical communities with a shared patient population.",
     text: "<strong>What we do:</strong> Intrepid Ascent provides data exchange and interoperability strategic planning, IT systems and security analysis, vendor selection and technology implementation guidance, stakeholder engagement, governance and policy development, workflow and process improvement, and ongoing management services."
 },
+{
+  title : 'Value-Based Care',
+  intro: 'As Medicare, Medicaid, and commercial payers accelerate the shift from volume-based to value-based health care, provider organizations are challenged to be prepared. The emergence of a new wave of value-based programs - such as MIPS, PRIME, and Whole Person Care - drives transformation of financial, data, and care delivery systems at an unprecedented pace.',
+  text: '<strong>What we do:</strong> Intrepid Ascent partners with health care provider organizations embracing value-based payment opportunities so that they - and their patients - thrive in this new environment. Our services aim to strengthen provider’s capabilities in quality and performance reporting; population-based care delivery redesign; change management; data analytics and interoperability; privacy and security; and integration with community partners.'
+},
   {
     title: "population health management",
     intro: "The health care system is transitioning from an episodic model of care focused on discrete patient encounters to a focus on population health outcomes. To thrive in this emerging landscape requires significant cultural and operational change and the data infrastructure to support it.",
